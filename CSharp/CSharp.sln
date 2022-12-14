@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionMark", "QuestionMark\QuestionMark.csproj", "{1473C63C-E73E-48BB-A92E-3288C453C805}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCaseCSharp", "SwitchCaseCSharp\SwitchCaseCSharp.csproj", "{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1473C63C-E73E-48BB-A92E-3288C453C805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1473C63C-E73E-48BB-A92E-3288C453C805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1473C63C-E73E-48BB-A92E-3288C453C805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,3 +26,13 @@ if (a is 10)
 
 }
 
+// null-conditional operator ?
+//  tương tự dấu !=, name mà khác null trả về vế phải.
+int? lengths = name?.Length;
+
+// ?? null-codlescing operator 
+// tương tự như dấu ==
+
+//name bằng null thì trả về vế sau.
+
+int? length2 = name?.Length ?? 0;
