@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionMark", "QuestionMar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCaseCSharp", "SwitchCaseCSharp\SwitchCaseCSharp.csproj", "{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeachWhile", "ForeachWhile\ForeachWhile.csproj", "{E59C3A1C-F3EF-4135-81B1-51D059001E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefOut", "RefOut\RefOut.csproj", "{A193975A-322B-4A0F-BC90-BC9ED278F2EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C6A5D3F-17D2-4384-95BD-2EE85FF19E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59C3A1C-F3EF-4135-81B1-51D059001E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59C3A1C-F3EF-4135-81B1-51D059001E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59C3A1C-F3EF-4135-81B1-51D059001E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59C3A1C-F3EF-4135-81B1-51D059001E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A193975A-322B-4A0F-BC90-BC9ED278F2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A193975A-322B-4A0F-BC90-BC9ED278F2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A193975A-322B-4A0F-BC90-BC9ED278F2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A193975A-322B-4A0F-BC90-BC9ED278F2EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

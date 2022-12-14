@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\bin\Debug\net7.0\ForeachWhile.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\bin\Debug\net7.0\ForeachWhile.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\bin\Debug\net7.0\ForeachWhile.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\bin\Debug\net7.0\ForeachWhile.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\bin\Debug\net7.0\ForeachWhile.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ForeachWhile.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ForeachWhile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ForeachWhile.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ForeachWhile.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ForeachWhile.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ForeachWhile.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\refint\ForeachWhile.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ForeachWhile.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ForeachWhile.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ForeachWhile\obj\Debug\net7.0\ref\ForeachWhile.dll
