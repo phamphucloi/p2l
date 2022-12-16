@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\bin\Debug\net7.0\RegexTry.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\bin\Debug\net7.0\RegexTry.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\bin\Debug\net7.0\RegexTry.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\bin\Debug\net7.0\RegexTry.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\bin\Debug\net7.0\RegexTry.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\RegexTry.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\RegexTry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\RegexTry.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\RegexTry.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\RegexTry.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\RegexTry.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\refint\RegexTry.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\RegexTry.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\RegexTry.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Regex\obj\Debug\net7.0\ref\RegexTry.dll
