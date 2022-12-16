@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBai2", "TestBai2\TestBa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Student", "Student\Student.csproj", "{48125457-6D92-444C-A47E-C3E8A3F9058F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTry", "Regex\RegexTry.csproj", "{AA55780C-10FF-43FF-8073-F69A6ED5EDD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegexTry", "Regex\RegexTry.csproj", "{AA55780C-10FF-43FF-8073-F69A6ED5EDD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatialClass", "PatialClass\PatialClass.csproj", "{DB60EC93-2CE3-4371-83E4-75CCD2898551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentAndParams", "ArgumentAndParams\ArgumentAndParams.csproj", "{35DCABD9-F4A2-4B06-9020-3B949FF9CD04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{AA55780C-10FF-43FF-8073-F69A6ED5EDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA55780C-10FF-43FF-8073-F69A6ED5EDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA55780C-10FF-43FF-8073-F69A6ED5EDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB60EC93-2CE3-4371-83E4-75CCD2898551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB60EC93-2CE3-4371-83E4-75CCD2898551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB60EC93-2CE3-4371-83E4-75CCD2898551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB60EC93-2CE3-4371-83E4-75CCD2898551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DCABD9-F4A2-4B06-9020-3B949FF9CD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DCABD9-F4A2-4B06-9020-3B949FF9CD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DCABD9-F4A2-4B06-9020-3B949FF9CD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DCABD9-F4A2-4B06-9020-3B949FF9CD04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
