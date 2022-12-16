@@ -22,9 +22,4 @@ internal class Ll : Sinh
         Console.WriteLine($"{nameof(s)}={s}");
     }
 
-    public static void Ba()
-    {
-        Ll.Sinhhoc();
-    }
-
 }

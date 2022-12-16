@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "lamlai/1.0.0": {
+      "Lamlai/1.0.0": {
         "dependencies": {
           "Baitap": "1.0.0"
         },
         "runtime": {
-          "lamlai.dll": {}
+          "Lamlai.dll": {}
         }
       },
       "Baitap/1.0.0": {
@@ -22,7 +22,7 @@
     }
   },
   "libraries": {
-    "lamlai/1.0.0": {
+    "Lamlai/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
