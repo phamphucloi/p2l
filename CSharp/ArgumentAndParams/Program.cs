@@ -19,3 +19,10 @@ argu.Show(10,12);
 argu.Show(b:10, a: 12, c:4);
 
 argu.Show(a: 12, c: 4);
+
+argu.SumParam(1);
+
+argu.SumParam(1,2,3,4,5,6);
+
+int[] ar = { 1, 2, 3, 4 };
+argu.SumParam(ar);

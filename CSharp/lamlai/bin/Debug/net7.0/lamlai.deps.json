@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "lamlai/1.0.0": {
+        "dependencies": {
+          "Baitap": "1.0.0"
+        },
+        "runtime": {
+          "lamlai.dll": {}
+        }
+      },
+      "Baitap/1.0.0": {
+        "runtime": {
+          "Baitap.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lamlai/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Baitap/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -3,3 +3,13 @@ C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\Argume
 C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.AssemblyInfoInputs.cache
 C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.AssemblyInfo.cs
 C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\ArgumentAndParams.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\ArgumentAndParams.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\ArgumentAndParams.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\ArgumentAndParams.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\ArgumentAndParams.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\refint\ArgumentAndParams.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ref\ArgumentAndParams.dll
