@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\bin\Debug\net7.0\OOPPolymorphismOverride.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\bin\Debug\net7.0\OOPPolymorphismOverride.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\bin\Debug\net7.0\OOPPolymorphismOverride.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\bin\Debug\net7.0\OOPPolymorphismOverride.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\bin\Debug\net7.0\OOPPolymorphismOverride.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\OOPPolymorphismOverride.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\OOPPolymorphismOverride.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\OOPPolymorphismOverride.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\OOPPolymorphismOverride.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\OOPPolymorphismOverride.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\OOPPolymorphismOverride.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\refint\OOPPolymorphismOverride.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\OOPPolymorphismOverride.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\OOPPolymorphismOverride.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismOverride\obj\Debug\net7.0\ref\OOPPolymorphismOverride.dll

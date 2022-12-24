@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ListAndLINQ.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ListAndLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ListAndLINQ.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ListAndLINQ.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ListAndLINQ.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\bin\Debug\net7.0\ListAndLINQ.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\bin\Debug\net7.0\ListAndLINQ.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\bin\Debug\net7.0\ListAndLINQ.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\bin\Debug\net7.0\ListAndLINQ.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\bin\Debug\net7.0\ListAndLINQ.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ListAndLINQ.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\refint\ListAndLINQ.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ListAndLINQ.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ListAndLINQ.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\ListAndLINQ\obj\Debug\net7.0\ref\ListAndLINQ.dll

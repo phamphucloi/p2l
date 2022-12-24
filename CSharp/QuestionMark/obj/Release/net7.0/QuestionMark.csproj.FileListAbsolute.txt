@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\bin\Release\net7.0\QuestionMark.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\bin\Release\net7.0\QuestionMark.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\bin\Release\net7.0\QuestionMark.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\bin\Release\net7.0\QuestionMark.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\bin\Release\net7.0\QuestionMark.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\QuestionMark.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\QuestionMark.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\QuestionMark.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\QuestionMark.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\QuestionMark.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\QuestionMark.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\refint\QuestionMark.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\QuestionMark.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\QuestionMark.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\QuestionMark\obj\Release\net7.0\ref\QuestionMark.dll

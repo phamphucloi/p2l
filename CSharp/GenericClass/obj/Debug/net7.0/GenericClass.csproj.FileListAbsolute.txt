@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\bin\Debug\net7.0\GenericClass.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\bin\Debug\net7.0\GenericClass.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\bin\Debug\net7.0\GenericClass.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\bin\Debug\net7.0\GenericClass.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\bin\Debug\net7.0\GenericClass.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\GenericClass.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\GenericClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\GenericClass.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\GenericClass.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\GenericClass.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\GenericClass.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\refint\GenericClass.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\GenericClass.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\GenericClass.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\GenericClass\obj\Debug\net7.0\ref\GenericClass.dll

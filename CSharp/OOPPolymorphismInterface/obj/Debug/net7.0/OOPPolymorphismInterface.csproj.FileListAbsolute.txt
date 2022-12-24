@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\bin\Debug\net7.0\OOPPolymorphismInterface.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\bin\Debug\net7.0\OOPPolymorphismInterface.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\bin\Debug\net7.0\OOPPolymorphismInterface.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\bin\Debug\net7.0\OOPPolymorphismInterface.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\bin\Debug\net7.0\OOPPolymorphismInterface.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\OOPPolymorphismInterface.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\OOPPolymorphismInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\OOPPolymorphismInterface.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\OOPPolymorphismInterface.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\OOPPolymorphismInterface.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\OOPPolymorphismInterface.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\refint\OOPPolymorphismInterface.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\OOPPolymorphismInterface.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\OOPPolymorphismInterface.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymorphismInterface\obj\Debug\net7.0\ref\OOPPolymorphismInterface.dll

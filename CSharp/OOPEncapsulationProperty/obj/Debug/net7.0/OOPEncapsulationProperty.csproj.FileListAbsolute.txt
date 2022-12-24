@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\bin\Debug\net7.0\OOPEncapsulationProperty.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\bin\Debug\net7.0\OOPEncapsulationProperty.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\bin\Debug\net7.0\OOPEncapsulationProperty.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\bin\Debug\net7.0\OOPEncapsulationProperty.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\bin\Debug\net7.0\OOPEncapsulationProperty.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\OOPEncapsulationProperty.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\OOPEncapsulationProperty.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\OOPEncapsulationProperty.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\OOPEncapsulationProperty.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\OOPEncapsulationProperty.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\OOPEncapsulationProperty.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\refint\OOPEncapsulationProperty.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\OOPEncapsulationProperty.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\OOPEncapsulationProperty.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulationProperty\obj\Debug\net7.0\ref\OOPEncapsulationProperty.dll

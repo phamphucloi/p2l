@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\AppGro.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\AppGro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\AppGro.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\AppGro.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\AppGro.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\bin\Debug\net7.0\AppGro.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\bin\Debug\net7.0\AppGro.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\bin\Debug\net7.0\AppGro.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\bin\Debug\net7.0\AppGro.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\bin\Debug\net7.0\AppGro.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\AppGro.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\refint\AppGro.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\AppGro.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\AppGro.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\AppGro\obj\Debug\net7.0\ref\AppGro.dll

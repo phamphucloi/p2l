@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\bin\Release\net7.0\Baitap.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\bin\Release\net7.0\Baitap.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\bin\Release\net7.0\Baitap.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\bin\Release\net7.0\Baitap.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\bin\Release\net7.0\Baitap.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\Baitap.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\Baitap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\Baitap.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\Baitap.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\Baitap.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\Baitap.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\refint\Baitap.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\Baitap.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\Baitap.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Baitap\obj\Release\net7.0\ref\Baitap.dll

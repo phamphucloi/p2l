@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\bin\Release\net7.0\SwitchCaseCSharp.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\bin\Release\net7.0\SwitchCaseCSharp.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\bin\Release\net7.0\SwitchCaseCSharp.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\bin\Release\net7.0\SwitchCaseCSharp.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\bin\Release\net7.0\SwitchCaseCSharp.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\SwitchCaseCSharp.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\SwitchCaseCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\SwitchCaseCSharp.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\SwitchCaseCSharp.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\SwitchCaseCSharp.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\SwitchCaseCSharp.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\refint\SwitchCaseCSharp.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\SwitchCaseCSharp.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\SwitchCaseCSharp.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\SwitchCaseCSharp\obj\Release\net7.0\ref\SwitchCaseCSharp.dll

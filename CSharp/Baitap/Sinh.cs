@@ -10,10 +10,16 @@ public class Sinh
 { 
    public static void Enter(string i)
     {
+        //if (string.IsNullOrEmpty(i))
+        //{
+        //    Console.WriteLine("no data");
+        //    return;
+        //}
         var rg = new Regex("^[0-9]+$");
 
         if (rg.IsMatch(i))
         {
+
             int result = Convert.ToInt16(i);
             Console.WriteLine(result);
         }

@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\bin\Debug\net7.0\ExtentionMethod.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\bin\Debug\net7.0\ExtentionMethod.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\bin\Debug\net7.0\ExtentionMethod.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\bin\Debug\net7.0\ExtentionMethod.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\bin\Debug\net7.0\ExtentionMethod.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ExtentionMethod.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ExtentionMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ExtentionMethod.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ExtentionMethod.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ExtentionMethod.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ExtentionMethod.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\refint\ExtentionMethod.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ExtentionMethod.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ExtentionMethod.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\21_12_2022\obj\Debug\net7.0\ref\ExtentionMethod.dll

@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\bin\Debug\net7.0\OOPPolymophismOverLoading.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\bin\Debug\net7.0\OOPPolymophismOverLoading.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\bin\Debug\net7.0\OOPPolymophismOverLoading.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\bin\Debug\net7.0\OOPPolymophismOverLoading.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\bin\Debug\net7.0\OOPPolymophismOverLoading.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\OOPPolymophismOverLoading.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\OOPPolymophismOverLoading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\OOPPolymophismOverLoading.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\OOPPolymophismOverLoading.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\OOPPolymophismOverLoading.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\OOPPolymophismOverLoading.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\refint\OOPPolymophismOverLoading.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\OOPPolymophismOverLoading.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\OOPPolymophismOverLoading.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPPolymophismOverLoading\obj\Debug\net7.0\ref\OOPPolymophismOverLoading.dll

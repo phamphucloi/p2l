@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\PhamPhucLoi_C2109I1.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\PhamPhucLoi_C2109I1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\PhamPhucLoi_C2109I1.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\PhamPhucLoi_C2109I1.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\PhamPhucLoi_C2109I1.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\bin\Debug\net7.0\PhamPhucLoi_C2109I1.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\bin\Debug\net7.0\PhamPhucLoi_C2109I1.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\bin\Debug\net7.0\PhamPhucLoi_C2109I1.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\bin\Debug\net7.0\PhamPhucLoi_C2109I1.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\bin\Debug\net7.0\PhamPhucLoi_C2109I1.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\PhamPhucLoi_C2109I1.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\refint\PhamPhucLoi_C2109I1.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\PhamPhucLoi_C2109I1.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\PhamPhucLoi_C2109I1.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi_C2109I1\obj\Debug\net7.0\ref\PhamPhucLoi_C2109I1.dll

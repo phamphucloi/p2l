@@ -1,0 +1,5 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPAbtraction\obj\Release\net7.0\OOPAbtraction.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPAbtraction\obj\Release\net7.0\OOPAbtraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPAbtraction\obj\Release\net7.0\OOPAbtraction.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPAbtraction\obj\Release\net7.0\OOPAbtraction.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPAbtraction\obj\Release\net7.0\OOPAbtraction.csproj.CoreCompileInputs.cache

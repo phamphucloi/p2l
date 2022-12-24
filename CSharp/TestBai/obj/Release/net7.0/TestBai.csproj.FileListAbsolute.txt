@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\bin\Release\net7.0\TestBai.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\bin\Release\net7.0\TestBai.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\bin\Release\net7.0\TestBai.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\bin\Release\net7.0\TestBai.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\bin\Release\net7.0\TestBai.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\TestBai.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\TestBai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\TestBai.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\TestBai.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\TestBai.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\TestBai.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\refint\TestBai.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\TestBai.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\TestBai.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\TestBai\obj\Release\net7.0\ref\TestBai.dll

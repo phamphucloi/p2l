@@ -1,1 +1,1 @@
-﻿Console.WriteLine($"{nameof(num)}={num}");
+﻿//Console.WriteLine($"{nameof(num)}={num}");
