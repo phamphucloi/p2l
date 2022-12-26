@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\bin\Debug\net7.0\Practices.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\bin\Debug\net7.0\Practices.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\bin\Debug\net7.0\Practices.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\bin\Debug\net7.0\Practices.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\bin\Debug\net7.0\Practices.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\Practices.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\Practices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\Practices.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\Practices.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\Practices.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\Practices.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\refint\Practices.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\Practices.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\Practices.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Practices\obj\Debug\net7.0\ref\Practices.dll

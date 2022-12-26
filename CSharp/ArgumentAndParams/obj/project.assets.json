@@ -2,22 +2,9 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Baitap/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Baitap.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Baitap.dll": {}
-        }
-      },
       "Lamlai/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Baitap": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Lamlai.dll": {}
         },
@@ -28,11 +15,6 @@
     }
   },
   "libraries": {
-    "Baitap/1.0.0": {
-      "type": "project",
-      "path": "../Baitap/Baitap.csproj",
-      "msbuildProject": "../Baitap/Baitap.csproj"
-    },
     "Lamlai/1.0.0": {
       "type": "project",
       "path": "../lamlai/Lamlai.csproj",

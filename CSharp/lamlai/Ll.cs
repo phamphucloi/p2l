@@ -1,5 +1,4 @@
 ﻿
-using Baitap;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Lamlai;
-internal class Ll : Sinh
+internal class Ll
 {
     public static void Test(int a, int b, int c)
     => Console.WriteLine($"{nameof(a)}={a}, {nameof(b)}={b}, {nameof(c)}={c}");

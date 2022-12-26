@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Baitap/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Baitap.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Baitap.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Baitap/1.0.0": {
-      "type": "project",
-      "path": "../Baitap/Baitap.csproj",
-      "msbuildProject": "../Baitap/Baitap.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Baitap >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
@@ -32,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\p2l\\CSharp\\lamlai\\lamlai.csproj",
-      "projectName": "lamlai",
-      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\p2l\\CSharp\\lamlai\\lamlai.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\p2l\\CSharp\\lamlai\\Lamlai.csproj",
+      "projectName": "Lamlai",
+      "projectPath": "C:\\Users\\ADMIN\\source\\repos\\p2l\\CSharp\\lamlai\\Lamlai.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ADMIN\\source\\repos\\p2l\\CSharp\\lamlai\\obj\\",
       "projectStyle": "PackageReference",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\ADMIN\\source\\repos\\p2l\\CSharp\\Baitap\\Baitap.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\p2l\\CSharp\\Baitap\\Baitap.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
