@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Delegate;
+
 delegate void Test(int a, int b);
 internal class Mathems
 {
