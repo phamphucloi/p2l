@@ -13,3 +13,9 @@ C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\refint
 C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.pdb
 C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ref\ArgumentAndParams.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\Lamlai.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\Lamlai.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\Lamlai.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\Lamlai.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\bin\Debug\net7.0\Lamlai.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\ArgumentAndParams\obj\Debug\net7.0\ArgumentAndParams.csproj.CopyComplete

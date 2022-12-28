@@ -1,0 +1,5 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\PatialClass\obj\Debug\net7.0\PatialClass.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PatialClass\obj\Debug\net7.0\PatialClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\PatialClass\obj\Debug\net7.0\PatialClass.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PatialClass\obj\Debug\net7.0\PatialClass.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\PatialClass\obj\Debug\net7.0\PatialClass.csproj.CoreCompileInputs.cache

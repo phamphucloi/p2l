@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\bin\Debug\net7.0\C2109I1_Pham_Phuc_Loi.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\bin\Debug\net7.0\C2109I1_Pham_Phuc_Loi.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\bin\Debug\net7.0\C2109I1_Pham_Phuc_Loi.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\bin\Debug\net7.0\C2109I1_Pham_Phuc_Loi.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\bin\Debug\net7.0\C2109I1_Pham_Phuc_Loi.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\C2109I1_Pham_Phuc_Loi.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\C2109I1_Pham_Phuc_Loi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\C2109I1_Pham_Phuc_Loi.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\C2109I1_Pham_Phuc_Loi.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\C2109I1_Pham_Phuc_Loi.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\C2109I1_Pham_Phuc_Loi.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\refint\C2109I1_Pham_Phuc_Loi.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\C2109I1_Pham_Phuc_Loi.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\C2109I1_Pham_Phuc_Loi.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\C2109I1_Pham_Phuc_Loi\obj\Debug\net7.0\ref\C2109I1_Pham_Phuc_Loi.dll

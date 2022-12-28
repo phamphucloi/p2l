@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\NewExcercise.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\NewExcercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\NewExcercise.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\NewExcercise.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\NewExcercise.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\bin\Debug\net7.0\NewExcercise.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\bin\Debug\net7.0\NewExcercise.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\bin\Debug\net7.0\NewExcercise.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\bin\Debug\net7.0\NewExcercise.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\bin\Debug\net7.0\NewExcercise.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\NewExcercise.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\refint\NewExcercise.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\NewExcercise.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\NewExcercise.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\NewExcercise\obj\Debug\net7.0\ref\NewExcercise.dll

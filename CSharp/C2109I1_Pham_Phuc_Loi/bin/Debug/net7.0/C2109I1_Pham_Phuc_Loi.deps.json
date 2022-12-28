@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "C2109I1_Pham_Phuc_Loi/1.0.0": {
+        "runtime": {
+          "C2109I1_Pham_Phuc_Loi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C2109I1_Pham_Phuc_Loi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

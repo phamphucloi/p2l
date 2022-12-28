@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\bin\Debug\net7.0\OOPEncapsulation.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\bin\Debug\net7.0\OOPEncapsulation.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\bin\Debug\net7.0\OOPEncapsulation.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\bin\Debug\net7.0\OOPEncapsulation.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\bin\Debug\net7.0\OOPEncapsulation.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\OOPEncapsulation.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\OOPEncapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\OOPEncapsulation.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\OOPEncapsulation.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\OOPEncapsulation.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\OOPEncapsulation.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\refint\OOPEncapsulation.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\OOPEncapsulation.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\OOPEncapsulation.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\OOPEncapsulation\obj\Debug\net7.0\ref\OOPEncapsulation.dll

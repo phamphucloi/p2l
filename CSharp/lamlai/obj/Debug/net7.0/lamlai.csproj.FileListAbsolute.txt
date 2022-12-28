@@ -13,9 +13,3 @@ C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\obj\Debug\net7.0\refint\lamlai.dll
 C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\obj\Debug\net7.0\lamlai.pdb
 C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\obj\Debug\net7.0\lamlai.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\obj\Debug\net7.0\ref\lamlai.dll
-C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\bin\Debug\net7.0\Baitap.deps.json
-C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\bin\Debug\net7.0\Baitap.runtimeconfig.json
-C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\bin\Debug\net7.0\Baitap.exe
-C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\bin\Debug\net7.0\Baitap.dll
-C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\bin\Debug\net7.0\Baitap.pdb
-C:\Users\ADMIN\source\repos\p2l\CSharp\lamlai\obj\Debug\net7.0\lamlai.csproj.CopyComplete

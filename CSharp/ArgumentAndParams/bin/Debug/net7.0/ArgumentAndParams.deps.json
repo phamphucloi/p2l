@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "ArgumentAndParams/1.0.0": {
+        "dependencies": {
+          "Lamlai": "1.0.0"
+        },
         "runtime": {
           "ArgumentAndParams.dll": {}
+        }
+      },
+      "Lamlai/1.0.0": {
+        "runtime": {
+          "Lamlai.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ArgumentAndParams/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lamlai/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
