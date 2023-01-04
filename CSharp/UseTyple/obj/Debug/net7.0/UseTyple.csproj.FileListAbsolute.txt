@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\UseTyple.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\UseTyple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\UseTyple.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\UseTyple.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\UseTyple.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\bin\Debug\net7.0\UseTyple.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\bin\Debug\net7.0\UseTyple.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\bin\Debug\net7.0\UseTyple.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\bin\Debug\net7.0\UseTyple.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\bin\Debug\net7.0\UseTyple.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\UseTyple.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\refint\UseTyple.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\UseTyple.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\UseTyple.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\UseTyple\obj\Debug\net7.0\ref\UseTyple.dll

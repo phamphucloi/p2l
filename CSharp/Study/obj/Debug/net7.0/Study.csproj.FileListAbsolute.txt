@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\bin\Debug\net7.0\Study.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\bin\Debug\net7.0\Study.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\bin\Debug\net7.0\Study.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\bin\Debug\net7.0\Study.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\bin\Debug\net7.0\Study.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\Study.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\Study.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\Study.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\Study.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\Study.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\Study.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\refint\Study.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\Study.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\Study.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Study\obj\Debug\net7.0\ref\Study.dll

@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\bin\Debug\net7.0\UsingTuple.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\bin\Debug\net7.0\UsingTuple.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\bin\Debug\net7.0\UsingTuple.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\bin\Debug\net7.0\UsingTuple.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\bin\Debug\net7.0\UsingTuple.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\UsingTuple.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\UsingTuple.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\UsingTuple.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\UsingTuple.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\UsingTuple.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\UsingTuple.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\refint\UsingTuple.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\UsingTuple.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\UsingTuple.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\Tuple\obj\Debug\net7.0\ref\UsingTuple.dll

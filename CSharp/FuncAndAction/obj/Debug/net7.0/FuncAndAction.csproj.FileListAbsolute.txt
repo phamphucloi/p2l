@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\bin\Debug\net7.0\FuncAndAction.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\bin\Debug\net7.0\FuncAndAction.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\bin\Debug\net7.0\FuncAndAction.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\bin\Debug\net7.0\FuncAndAction.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\bin\Debug\net7.0\FuncAndAction.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\FuncAndAction.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\FuncAndAction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\FuncAndAction.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\FuncAndAction.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\FuncAndAction.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\FuncAndAction.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\refint\FuncAndAction.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\FuncAndAction.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\FuncAndAction.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\FuncAndAction\obj\Debug\net7.0\ref\FuncAndAction.dll

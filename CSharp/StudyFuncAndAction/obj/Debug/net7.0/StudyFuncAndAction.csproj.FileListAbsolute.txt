@@ -1,0 +1,15 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\bin\Debug\net7.0\StudyFuncAndAction.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\bin\Debug\net7.0\StudyFuncAndAction.deps.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\bin\Debug\net7.0\StudyFuncAndAction.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\bin\Debug\net7.0\StudyFuncAndAction.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\bin\Debug\net7.0\StudyFuncAndAction.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\StudyFuncAndAction.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\StudyFuncAndAction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\StudyFuncAndAction.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\StudyFuncAndAction.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\StudyFuncAndAction.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\StudyFuncAndAction.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\refint\StudyFuncAndAction.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\StudyFuncAndAction.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\StudyFuncAndAction.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\StudyFuncAndAction\obj\Debug\net7.0\ref\StudyFuncAndAction.dll
