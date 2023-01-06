@@ -1,20 +1,10 @@
-﻿use master
+﻿
+use PPL_WF
 GO
 
-Drop database if exists Pel
-Create database Pel
-GO
-
-use Pel
-GO
-
-Drop table if exists Student
-Create table Student(
-	Id int primary key identity,
-	[Name] nvarchar(max)
-)
-GO
-
-Insert into Student([Name])
-Values(N'Phạm Phúc Lợi 2')
+Create proc GetAllStudent
+As
+Begin
+	select * from Student
+End
 GO

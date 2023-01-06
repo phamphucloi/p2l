@@ -44,3 +44,24 @@ Begin
 	Where Id = @id
 End
 Go
+
+Create proc InsetStudent
+@fname nvarchar(50),
+@lname nvarchar(50),
+@gen bit,
+@dob date
+As
+Begin 
+	Insert into Student(FirstName, LastName, Gender, DoB) 
+	Values(@fname , @lname, @gen , @dob)
+End
+Go
+
+Create proc DeleteStudent
+@id int
+As
+Begin 
+	Delete from Student
+	Where Id = @id
+End
+Go

@@ -32,5 +32,26 @@ namespace WindowsFormsApp1.Properties {
                 return ((string)(this["PelConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MSI\\SQLEXPRESS;Initial Catalog=PPL_WF;Integrated Security=True")]
+        public string PPL_WFConnectionString {
+            get {
+                return ((string)(this["PPL_WFConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=MSI\\SQLEXPRESS;Initial Catalog=PPL_WF;Persist Security Info=True;User" +
+            " ID=sa;Password=phamphucloi123")]
+        public string PPL_WFConnectionString1 {
+            get {
+                return ((string)(this["PPL_WFConnectionString1"]));
+            }
+        }
     }
 }
