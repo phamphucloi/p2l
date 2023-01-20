@@ -56,7 +56,7 @@ namespace WindowsFormsApp7
             using (PPL_WFEntities ef = new PPL_WFEntities())
             {
                 int id = Convert.ToInt16(txtId.Text);
-                var obj = await ef.Students.FirstOrDefaultAsync(i=>i.Id==id);
+                Student obj = await ef.Students.FirstOrDefaultAsync(i=>i.Id==id);
 
                 if (obj != null)
                 {
@@ -66,7 +66,7 @@ namespace WindowsFormsApp7
                     obj.DoB = dateChoose.Value;
                 }
 
-                //sửa xong hết thì update về databasqe
+                //sửa xong hết thì update về database
                 await ef.SaveChangesAsync();
                 bindingSource1.DataSource = await ef.Students.ToListAsync();
 
@@ -106,7 +106,7 @@ namespace WindowsFormsApp7
                 await ef.SaveChangesAsync();
                 bindingSource1.DataSource = await ef.Students.ToListAsync();
 
-                //ef.Students.RemoveRange(st => ef.Students.Where(st2 => st2.Id == id).ToListAsync());
+                //ef.Students.RemoveRange(st => ef.Students.Where(st2 => st2.Id == id));
 
                 MessageBox.Show("Delete-SuccessFully");
             }

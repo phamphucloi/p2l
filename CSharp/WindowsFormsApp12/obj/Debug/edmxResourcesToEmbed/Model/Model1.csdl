@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PHAMPHUCLOIModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblCourse">
+    <Key>
+      <PropertyRef Name="couId" />
+    </Key>
+    <Property Name="couId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="couName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="couSemester" Type="Int32" />
+    <NavigationProperty Name="tblExams" Relationship="Self.FK_tblExam_tblCourse" FromRole="tblCourse" ToRole="tblExam" />
+  </EntityType>
+  <EntityType Name="tblExam">
+    <Key>
+      <PropertyRef Name="examId" />
+    </Key>
+    <Property Name="examId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="examName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="examMark" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="examDate" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="stuId" Type="Int32" />
+    <Property Name="couId" Type="Int32" />
+    <NavigationProperty Name="tblCourse" Relationship="Self.FK_tblExam_tblCourse" FromRole="tblExam" ToRole="tblCourse" />
+    <NavigationProperty Name="tblStudent" Relationship="Self.FK_tblExam_tblStudent" FromRole="tblExam" ToRole="tblStudent" />
+  </EntityType>
+  <EntityType Name="tblStudent">
+    <Key>
+      <PropertyRef Name="stuId" />
+    </Key>
+    <Property Name="stuId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="stuPass" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="stuName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="stuPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="stuEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="deptId" Type="Int32" />
+    <NavigationProperty Name="tblExams" Relationship="Self.FK_tblExam_tblStudent" FromRole="tblStudent" ToRole="tblExam" />
+    <NavigationProperty Name="tblSubject" Relationship="Self.FK_tblStudent_tblSubject" FromRole="tblStudent" ToRole="tblSubject" />
+  </EntityType>
+  <EntityType Name="tblSubject">
+    <Key>
+      <PropertyRef Name="deptId" />
+    </Key>
+    <Property Name="deptId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="deptName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="deptCredits" Type="Int32" />
+    <NavigationProperty Name="tblStudents" Relationship="Self.FK_tblStudent_tblSubject" FromRole="tblSubject" ToRole="tblStudent" />
+  </EntityType>
+  <Association Name="FK_tblExam_tblCourse">
+    <End Role="tblCourse" Type="Self.tblCourse" Multiplicity="0..1" />
+    <End Role="tblExam" Type="Self.tblExam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCourse">
+        <PropertyRef Name="couId" />
+      </Principal>
+      <Dependent Role="tblExam">
+        <PropertyRef Name="couId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblExam_tblStudent">
+    <End Role="tblStudent" Type="Self.tblStudent" Multiplicity="0..1" />
+    <End Role="tblExam" Type="Self.tblExam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblStudent">
+        <PropertyRef Name="stuId" />
+      </Principal>
+      <Dependent Role="tblExam">
+        <PropertyRef Name="stuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblStudent_tblSubject">
+    <End Role="tblSubject" Type="Self.tblSubject" Multiplicity="0..1" />
+    <End Role="tblStudent" Type="Self.tblStudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSubject">
+        <PropertyRef Name="deptId" />
+      </Principal>
+      <Dependent Role="tblStudent">
+        <PropertyRef Name="deptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PHAMPHUCLOIEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="tblCourses" EntityType="Self.tblCourse" />
+    <EntitySet Name="tblExams" EntityType="Self.tblExam" />
+    <EntitySet Name="tblStudents" EntityType="Self.tblStudent" />
+    <EntitySet Name="tblSubjects" EntityType="Self.tblSubject" />
+    <AssociationSet Name="FK_tblExam_tblCourse" Association="Self.FK_tblExam_tblCourse">
+      <End Role="tblCourse" EntitySet="tblCourses" />
+      <End Role="tblExam" EntitySet="tblExams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblExam_tblStudent" Association="Self.FK_tblExam_tblStudent">
+      <End Role="tblStudent" EntitySet="tblStudents" />
+      <End Role="tblExam" EntitySet="tblExams" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblStudent_tblSubject" Association="Self.FK_tblStudent_tblSubject">
+      <End Role="tblSubject" EntitySet="tblSubjects" />
+      <End Role="tblStudent" EntitySet="tblStudents" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PHAMPHUCLOIModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tblCourse">
+    <Key>
+      <PropertyRef Name="couId" />
+    </Key>
+    <Property Name="couId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="couName" Type="varchar" MaxLength="50" />
+    <Property Name="couSemester" Type="int" />
+  </EntityType>
+  <EntityType Name="tblExam">
+    <Key>
+      <PropertyRef Name="examId" />
+    </Key>
+    <Property Name="examId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="examName" Type="varchar" MaxLength="50" />
+    <Property Name="examMark" Type="varchar" MaxLength="50" />
+    <Property Name="examDate" Type="varchar" MaxLength="50" />
+    <Property Name="stuId" Type="int" />
+    <Property Name="couId" Type="int" />
+  </EntityType>
+  <EntityType Name="tblStudent">
+    <Key>
+      <PropertyRef Name="stuId" />
+    </Key>
+    <Property Name="stuId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="stuPass" Type="nvarchar" MaxLength="200" />
+    <Property Name="stuName" Type="varchar" MaxLength="50" />
+    <Property Name="stuPhone" Type="varchar" MaxLength="50" />
+    <Property Name="stuEmail" Type="varchar" MaxLength="50" />
+    <Property Name="deptId" Type="int" />
+  </EntityType>
+  <EntityType Name="tblSubject">
+    <Key>
+      <PropertyRef Name="deptId" />
+    </Key>
+    <Property Name="deptId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="deptName" Type="nvarchar" MaxLength="50" />
+    <Property Name="deptCredits" Type="int" />
+  </EntityType>
+  <Association Name="FK_tblExam_tblCourse">
+    <End Role="tblCourse" Type="Self.tblCourse" Multiplicity="0..1" />
+    <End Role="tblExam" Type="Self.tblExam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblCourse">
+        <PropertyRef Name="couId" />
+      </Principal>
+      <Dependent Role="tblExam">
+        <PropertyRef Name="couId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblExam_tblStudent">
+    <End Role="tblStudent" Type="Self.tblStudent" Multiplicity="0..1" />
+    <End Role="tblExam" Type="Self.tblExam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblStudent">
+        <PropertyRef Name="stuId" />
+      </Principal>
+      <Dependent Role="tblExam">
+        <PropertyRef Name="stuId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblStudent_tblSubject">
+    <End Role="tblSubject" Type="Self.tblSubject" Multiplicity="0..1" />
+    <End Role="tblStudent" Type="Self.tblStudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSubject">
+        <PropertyRef Name="deptId" />
+      </Principal>
+      <Dependent Role="tblStudent">
+        <PropertyRef Name="deptId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PHAMPHUCLOIModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblCourse" EntityType="Self.tblCourse" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblExam" EntityType="Self.tblExam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblStudent" EntityType="Self.tblStudent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblSubject" EntityType="Self.tblSubject" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_tblExam_tblCourse" Association="Self.FK_tblExam_tblCourse">
+      <End Role="tblCourse" EntitySet="tblCourse" />
+      <End Role="tblExam" EntitySet="tblExam" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblExam_tblStudent" Association="Self.FK_tblExam_tblStudent">
+      <End Role="tblStudent" EntitySet="tblStudent" />
+      <End Role="tblExam" EntitySet="tblExam" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblStudent_tblSubject" Association="Self.FK_tblStudent_tblSubject">
+      <End Role="tblSubject" EntitySet="tblSubject" />
+      <End Role="tblStudent" EntitySet="tblStudent" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

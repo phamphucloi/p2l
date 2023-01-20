@@ -1,0 +1,16 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\bin\Debug\PhamPhucLoi.exe.config
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\bin\Debug\PhamPhucLoi.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\bin\Debug\PhamPhucLoi.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.Form1.resources
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.csproj.CopyComplete
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\PhamPhucLoi\obj\Debug\PhamPhucLoi.pdb

@@ -1,0 +1,16 @@
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CopyComplete
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb

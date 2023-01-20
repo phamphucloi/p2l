@@ -1,0 +1,16 @@
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
