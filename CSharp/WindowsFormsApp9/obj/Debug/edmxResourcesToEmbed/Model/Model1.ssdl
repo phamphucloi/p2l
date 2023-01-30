@@ -1,15 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="PHAMPHUCLOIModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="sysdiagrams">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
-    <Property Name="principal_id" Type="int" Nullable="false" />
-    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="version" Type="int" />
-    <Property Name="definition" Type="varbinary(max)" />
-  </EntityType>
   <EntityType Name="tblCourse">
     <Key>
       <PropertyRef Name="couId" />
@@ -38,6 +28,7 @@
     <Property Name="stuName" Type="varchar" MaxLength="50" />
     <Property Name="stuPhone" Type="varchar" MaxLength="50" />
     <Property Name="stuEmail" Type="varchar" MaxLength="50" />
+    <Property Name="stuGender" Type="bit" />
     <Property Name="deptId" Type="int" />
   </EntityType>
   <EntityType Name="tblSubject">
@@ -85,7 +76,6 @@
     </ReferentialConstraint>
   </Association>
   <EntityContainer Name="PHAMPHUCLOIModelStoreContainer">
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tblCourse" EntityType="Self.tblCourse" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tblExam" EntityType="Self.tblExam" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tblStudent" EntityType="Self.tblStudent" Schema="dbo" store:Type="Tables" />

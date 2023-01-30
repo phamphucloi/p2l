@@ -32,9 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.btnLoaddingSubject = new System.Windows.Forms.Button();
+            this.txtIdSub = new System.Windows.Forms.TextBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.FilterId = new System.Windows.Forms.Button();
             this.btnSearchSubject = new System.Windows.Forms.Button();
             this.txtSearchSubject = new System.Windows.Forms.TextBox();
-            this.cbDeptId = new System.Windows.Forms.ComboBox();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
@@ -57,11 +61,21 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label24 = new System.Windows.Forms.Label();
+            this.btnLoaddingStudents = new System.Windows.Forms.Button();
+            this.txtNameSubject = new System.Windows.Forms.TextBox();
+            this.txtIdStu = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtSearchStudents = new System.Windows.Forms.TextBox();
+            this.btnSeachStudents = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.cBDeptNameSub = new System.Windows.Forms.ComboBox();
             this.txtEmailStu = new System.Windows.Forms.TextBox();
             this.txtPhoneStu = new System.Windows.Forms.TextBox();
-            this.cbDeptStuId = new System.Windows.Forms.ComboBox();
             this.txtNameStu = new System.Windows.Forms.TextBox();
             this.btnResetStu = new System.Windows.Forms.Button();
             this.btnInsertStu = new System.Windows.Forms.Button();
@@ -86,6 +100,12 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.btnLoaddingExam = new System.Windows.Forms.Button();
+            this.txtIdExam = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button9 = new System.Windows.Forms.Button();
+            this.btnSearchExam = new System.Windows.Forms.Button();
+            this.txtSearchExam = new System.Windows.Forms.TextBox();
             this.txtNameCourseExam = new System.Windows.Forms.TextBox();
             this.txtNameStuExam = new System.Windows.Forms.TextBox();
             this.dateChooser = new System.Windows.Forms.DateTimePicker();
@@ -105,7 +125,6 @@
             this.btnResetExam = new System.Windows.Forms.Button();
             this.btnInsertExam = new System.Windows.Forms.Button();
             this.cbCouIdExam = new System.Windows.Forms.ComboBox();
-            this.cbIdExam = new System.Windows.Forms.ComboBox();
             this.txtMarkExam = new System.Windows.Forms.TextBox();
             this.txtNameExam = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
@@ -117,7 +136,12 @@
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.label13 = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.cbCourseId = new System.Windows.Forms.ComboBox();
+            this.btnLoaddingCourse = new System.Windows.Forms.Button();
+            this.txtIdCourse = new System.Windows.Forms.TextBox();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.txtSearchCourse = new System.Windows.Forms.TextBox();
+            this.btnSearchCourse = new System.Windows.Forms.Button();
             this.txtCourseName = new System.Windows.Forms.TextBox();
             this.txtCourseSemester = new System.Windows.Forms.TextBox();
             this.btnResetCourse = new System.Windows.Forms.Button();
@@ -143,12 +167,6 @@
             this.bindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource4 = new System.Windows.Forms.BindingSource(this.components);
-            this.txtSearchExam = new System.Windows.Forms.TextBox();
-            this.btnSearchExam = new System.Windows.Forms.Button();
-            this.btnSearchCourse = new System.Windows.Forms.Button();
-            this.txtSearchCourse = new System.Windows.Forms.TextBox();
-            this.btnSeachStudents = new System.Windows.Forms.Button();
-            this.txtSearchStudents = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
@@ -183,12 +201,18 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1106, 677);
             this.tabControl1.TabIndex = 0;
+            this.tabControl1.Click += new System.EventHandler(this.tabControl1_Click);
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.tabPage1.Controls.Add(this.btnLoaddingSubject);
+            this.tabPage1.Controls.Add(this.txtIdSub);
+            this.tabPage1.Controls.Add(this.button3);
+            this.tabPage1.Controls.Add(this.button2);
+            this.tabPage1.Controls.Add(this.FilterId);
             this.tabPage1.Controls.Add(this.btnSearchSubject);
             this.tabPage1.Controls.Add(this.txtSearchSubject);
-            this.tabPage1.Controls.Add(this.cbDeptId);
             this.tabPage1.Controls.Add(this.bindingNavigator1);
             this.tabPage1.Controls.Add(this.btnReset);
             this.tabPage1.Controls.Add(this.btnAdd);
@@ -205,12 +229,65 @@
             this.tabPage1.Size = new System.Drawing.Size(1098, 648);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "SUBJECT";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // btnLoaddingSubject
+            // 
+            this.btnLoaddingSubject.BackColor = System.Drawing.Color.Azure;
+            this.btnLoaddingSubject.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoaddingSubject.Location = new System.Drawing.Point(0, 0);
+            this.btnLoaddingSubject.Name = "btnLoaddingSubject";
+            this.btnLoaddingSubject.Size = new System.Drawing.Size(100, 31);
+            this.btnLoaddingSubject.TabIndex = 18;
+            this.btnLoaddingSubject.Text = "Loadding...";
+            this.btnLoaddingSubject.UseVisualStyleBackColor = false;
+            this.btnLoaddingSubject.Click += new System.EventHandler(this.btnLoaddingSubject_Click);
+            // 
+            // txtIdSub
+            // 
+            this.txtIdSub.Enabled = false;
+            this.txtIdSub.Location = new System.Drawing.Point(814, 196);
+            this.txtIdSub.Multiline = true;
+            this.txtIdSub.Name = "txtIdSub";
+            this.txtIdSub.Size = new System.Drawing.Size(193, 38);
+            this.txtIdSub.TabIndex = 17;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Azure;
+            this.button3.Location = new System.Drawing.Point(631, 96);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(90, 32);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "Filter Name";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Azure;
+            this.button2.Location = new System.Drawing.Point(529, 96);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(96, 32);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Id DESC";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // FilterId
+            // 
+            this.FilterId.BackColor = System.Drawing.Color.Azure;
+            this.FilterId.Location = new System.Drawing.Point(430, 96);
+            this.FilterId.Name = "FilterId";
+            this.FilterId.Size = new System.Drawing.Size(93, 32);
+            this.FilterId.TabIndex = 14;
+            this.FilterId.Text = "Id ASC";
+            this.FilterId.UseVisualStyleBackColor = false;
+            this.FilterId.Click += new System.EventHandler(this.FilterId_Click);
             // 
             // btnSearchSubject
             // 
-            this.btnSearchSubject.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnSearchSubject.Location = new System.Drawing.Point(646, 96);
+            this.btnSearchSubject.BackColor = System.Drawing.Color.Azure;
+            this.btnSearchSubject.Location = new System.Drawing.Point(348, 96);
             this.btnSearchSubject.Name = "btnSearchSubject";
             this.btnSearchSubject.Size = new System.Drawing.Size(75, 32);
             this.btnSearchSubject.TabIndex = 13;
@@ -223,18 +300,8 @@
             this.txtSearchSubject.Location = new System.Drawing.Point(48, 96);
             this.txtSearchSubject.Multiline = true;
             this.txtSearchSubject.Name = "txtSearchSubject";
-            this.txtSearchSubject.Size = new System.Drawing.Size(592, 32);
+            this.txtSearchSubject.Size = new System.Drawing.Size(294, 32);
             this.txtSearchSubject.TabIndex = 12;
-            // 
-            // cbDeptId
-            // 
-            this.cbDeptId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbDeptId.FormattingEnabled = true;
-            this.cbDeptId.Location = new System.Drawing.Point(814, 196);
-            this.cbDeptId.Name = "cbDeptId";
-            this.cbDeptId.Size = new System.Drawing.Size(193, 34);
-            this.cbDeptId.TabIndex = 11;
-            this.cbDeptId.SelectedIndexChanged += new System.EventHandler(this.cbDeptId_SelectedIndexChanged);
             // 
             // bindingNavigator1
             // 
@@ -300,7 +367,6 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -336,6 +402,7 @@
             // 
             // toolStripButton1
             // 
+            this.toolStripButton1.BackColor = System.Drawing.Color.Azure;
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -346,6 +413,7 @@
             // 
             // toolStripButton2
             // 
+            this.toolStripButton2.BackColor = System.Drawing.Color.Azure;
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -356,22 +424,24 @@
             // 
             // btnReset
             // 
+            this.btnReset.BackColor = System.Drawing.Color.Azure;
             this.btnReset.Location = new System.Drawing.Point(921, 517);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(86, 43);
             this.btnReset.TabIndex = 9;
             this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnAdd
             // 
+            this.btnAdd.BackColor = System.Drawing.Color.Azure;
             this.btnAdd.Location = new System.Drawing.Point(814, 517);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(86, 43);
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtCredits
@@ -443,13 +513,22 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.tabPage2.Controls.Add(this.label24);
+            this.tabPage2.Controls.Add(this.btnLoaddingStudents);
+            this.tabPage2.Controls.Add(this.txtNameSubject);
+            this.tabPage2.Controls.Add(this.txtIdStu);
+            this.tabPage2.Controls.Add(this.checkBox1);
+            this.tabPage2.Controls.Add(this.button6);
+            this.tabPage2.Controls.Add(this.button5);
+            this.tabPage2.Controls.Add(this.button4);
+            this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.txtSearchStudents);
             this.tabPage2.Controls.Add(this.btnSeachStudents);
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.cBDeptNameSub);
             this.tabPage2.Controls.Add(this.txtEmailStu);
             this.tabPage2.Controls.Add(this.txtPhoneStu);
-            this.tabPage2.Controls.Add(this.cbDeptStuId);
             this.tabPage2.Controls.Add(this.txtNameStu);
             this.tabPage2.Controls.Add(this.btnResetStu);
             this.tabPage2.Controls.Add(this.btnInsertStu);
@@ -468,7 +547,120 @@
             this.tabPage2.Size = new System.Drawing.Size(1098, 648);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "STUDENT";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(933, 260);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(81, 20);
+            this.label24.TabIndex = 30;
+            this.label24.Text = "Giới tính :";
+            // 
+            // btnLoaddingStudents
+            // 
+            this.btnLoaddingStudents.BackColor = System.Drawing.Color.Azure;
+            this.btnLoaddingStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoaddingStudents.Location = new System.Drawing.Point(0, 0);
+            this.btnLoaddingStudents.Name = "btnLoaddingStudents";
+            this.btnLoaddingStudents.Size = new System.Drawing.Size(100, 31);
+            this.btnLoaddingStudents.TabIndex = 29;
+            this.btnLoaddingStudents.Text = "Loadding...";
+            this.btnLoaddingStudents.UseVisualStyleBackColor = false;
+            this.btnLoaddingStudents.Click += new System.EventHandler(this.btnLoaddingStudents_Click);
+            // 
+            // txtNameSubject
+            // 
+            this.txtNameSubject.Enabled = false;
+            this.txtNameSubject.Location = new System.Drawing.Point(899, 480);
+            this.txtNameSubject.Multiline = true;
+            this.txtNameSubject.Name = "txtNameSubject";
+            this.txtNameSubject.Size = new System.Drawing.Size(138, 36);
+            this.txtNameSubject.TabIndex = 28;
+            // 
+            // txtIdStu
+            // 
+            this.txtIdStu.Enabled = false;
+            this.txtIdStu.Location = new System.Drawing.Point(803, 138);
+            this.txtIdStu.Multiline = true;
+            this.txtIdStu.Name = "txtIdStu";
+            this.txtIdStu.Size = new System.Drawing.Size(234, 36);
+            this.txtIdStu.TabIndex = 27;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(937, 283);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(100, 33);
+            this.checkBox1.TabIndex = 26;
+            this.checkBox1.Text = "Male?";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Azure;
+            this.button6.Location = new System.Drawing.Point(339, 77);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(83, 34);
+            this.button6.TabIndex = 25;
+            this.button6.Text = "Id DESC";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Azure;
+            this.button5.Location = new System.Drawing.Point(644, 75);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(115, 34);
+            this.button5.TabIndex = 24;
+            this.button5.Text = "Filter Email";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Azure;
+            this.button4.Location = new System.Drawing.Point(537, 75);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(101, 34);
+            this.button4.TabIndex = 23;
+            this.button4.Text = "Filter Phone";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Azure;
+            this.button1.Location = new System.Drawing.Point(428, 77);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(103, 34);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Filter Name";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // txtSearchStudents
+            // 
+            this.txtSearchStudents.Location = new System.Drawing.Point(9, 77);
+            this.txtSearchStudents.Multiline = true;
+            this.txtSearchStudents.Name = "txtSearchStudents";
+            this.txtSearchStudents.Size = new System.Drawing.Size(243, 32);
+            this.txtSearchStudents.TabIndex = 21;
+            // 
+            // btnSeachStudents
+            // 
+            this.btnSeachStudents.BackColor = System.Drawing.Color.Azure;
+            this.btnSeachStudents.Location = new System.Drawing.Point(258, 77);
+            this.btnSeachStudents.Name = "btnSeachStudents";
+            this.btnSeachStudents.Size = new System.Drawing.Size(75, 34);
+            this.btnSeachStudents.TabIndex = 20;
+            this.btnSeachStudents.Text = "Search";
+            this.btnSeachStudents.UseVisualStyleBackColor = false;
+            this.btnSeachStudents.Click += new System.EventHandler(this.btnSeachStudents_Click);
             // 
             // label12
             // 
@@ -486,8 +678,10 @@
             this.cBDeptNameSub.FormattingEnabled = true;
             this.cBDeptNameSub.Location = new System.Drawing.Point(803, 482);
             this.cBDeptNameSub.Name = "cBDeptNameSub";
-            this.cBDeptNameSub.Size = new System.Drawing.Size(234, 34);
+            this.cBDeptNameSub.Size = new System.Drawing.Size(90, 34);
             this.cBDeptNameSub.TabIndex = 18;
+            this.cBDeptNameSub.SelectedIndexChanged += new System.EventHandler(this.cBDeptNameSub_SelectedIndexChanged);
+            this.cBDeptNameSub.Click += new System.EventHandler(this.cBDeptNameSub_Click_1);
             // 
             // txtEmailStu
             // 
@@ -502,18 +696,8 @@
             this.txtPhoneStu.Location = new System.Drawing.Point(803, 280);
             this.txtPhoneStu.Multiline = true;
             this.txtPhoneStu.Name = "txtPhoneStu";
-            this.txtPhoneStu.Size = new System.Drawing.Size(234, 36);
+            this.txtPhoneStu.Size = new System.Drawing.Size(117, 36);
             this.txtPhoneStu.TabIndex = 16;
-            // 
-            // cbDeptStuId
-            // 
-            this.cbDeptStuId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbDeptStuId.FormattingEnabled = true;
-            this.cbDeptStuId.Location = new System.Drawing.Point(803, 138);
-            this.cbDeptStuId.Name = "cbDeptStuId";
-            this.cbDeptStuId.Size = new System.Drawing.Size(234, 34);
-            this.cbDeptStuId.TabIndex = 15;
-            this.cbDeptStuId.SelectedIndexChanged += new System.EventHandler(this.cbDeptStuId_SelectedIndexChanged);
             // 
             // txtNameStu
             // 
@@ -525,22 +709,24 @@
             // 
             // btnResetStu
             // 
+            this.btnResetStu.BackColor = System.Drawing.Color.Azure;
             this.btnResetStu.Location = new System.Drawing.Point(960, 531);
             this.btnResetStu.Name = "btnResetStu";
             this.btnResetStu.Size = new System.Drawing.Size(77, 42);
             this.btnResetStu.TabIndex = 10;
             this.btnResetStu.Text = "Reset";
-            this.btnResetStu.UseVisualStyleBackColor = true;
+            this.btnResetStu.UseVisualStyleBackColor = false;
             this.btnResetStu.Click += new System.EventHandler(this.btnResetStu_Click);
             // 
             // btnInsertStu
             // 
+            this.btnInsertStu.BackColor = System.Drawing.Color.Azure;
             this.btnInsertStu.Location = new System.Drawing.Point(803, 531);
             this.btnInsertStu.Name = "btnInsertStu";
             this.btnInsertStu.Size = new System.Drawing.Size(90, 42);
             this.btnInsertStu.TabIndex = 9;
             this.btnInsertStu.Text = "Add";
-            this.btnInsertStu.UseVisualStyleBackColor = true;
+            this.btnInsertStu.UseVisualStyleBackColor = false;
             this.btnInsertStu.Click += new System.EventHandler(this.btnInsertStu_Click);
             // 
             // bindingNavigator2
@@ -569,7 +755,7 @@
             this.bindingNavigator2.MovePreviousItem = this.bindingNavigatorMovePreviousItem1;
             this.bindingNavigator2.Name = "bindingNavigator2";
             this.bindingNavigator2.PositionItem = this.bindingNavigatorPositionItem1;
-            this.bindingNavigator2.Size = new System.Drawing.Size(402, 31);
+            this.bindingNavigator2.Size = new System.Drawing.Size(363, 27);
             this.bindingNavigator2.TabIndex = 8;
             this.bindingNavigator2.Text = "bindingNavigator2";
             // 
@@ -607,7 +793,6 @@
             // 
             this.bindingNavigatorPositionItem1.AccessibleName = "Position";
             this.bindingNavigatorPositionItem1.AutoSize = false;
-            this.bindingNavigatorPositionItem1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem1.Name = "bindingNavigatorPositionItem1";
             this.bindingNavigatorPositionItem1.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem1.Text = "0";
@@ -643,6 +828,7 @@
             // 
             // btnUpdateStu
             // 
+            this.btnUpdateStu.BackColor = System.Drawing.Color.Azure;
             this.btnUpdateStu.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnUpdateStu.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdateStu.Image")));
             this.btnUpdateStu.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -653,6 +839,7 @@
             // 
             // btnDeleteStu
             // 
+            this.btnDeleteStu.BackColor = System.Drawing.Color.Azure;
             this.btnDeleteStu.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnDeleteStu.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteStu.Image")));
             this.btnDeleteStu.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -728,7 +915,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(726, 475);
+            this.dataGridView2.Size = new System.Drawing.Size(750, 475);
             this.dataGridView2.TabIndex = 1;
             this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             // 
@@ -736,7 +923,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(382, 3);
+            this.label5.Location = new System.Drawing.Point(371, 5);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(353, 69);
             this.label5.TabIndex = 0;
@@ -744,6 +931,11 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.tabPage3.Controls.Add(this.btnLoaddingExam);
+            this.tabPage3.Controls.Add(this.txtIdExam);
+            this.tabPage3.Controls.Add(this.dateTimePicker1);
+            this.tabPage3.Controls.Add(this.button9);
             this.tabPage3.Controls.Add(this.btnSearchExam);
             this.tabPage3.Controls.Add(this.txtSearchExam);
             this.tabPage3.Controls.Add(this.txtNameCourseExam);
@@ -754,7 +946,6 @@
             this.tabPage3.Controls.Add(this.btnResetExam);
             this.tabPage3.Controls.Add(this.btnInsertExam);
             this.tabPage3.Controls.Add(this.cbCouIdExam);
-            this.tabPage3.Controls.Add(this.cbIdExam);
             this.tabPage3.Controls.Add(this.txtMarkExam);
             this.tabPage3.Controls.Add(this.txtNameExam);
             this.tabPage3.Controls.Add(this.label19);
@@ -771,7 +962,68 @@
             this.tabPage3.Size = new System.Drawing.Size(1098, 648);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "EXAM";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // btnLoaddingExam
+            // 
+            this.btnLoaddingExam.BackColor = System.Drawing.Color.Azure;
+            this.btnLoaddingExam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoaddingExam.Location = new System.Drawing.Point(0, 0);
+            this.btnLoaddingExam.Name = "btnLoaddingExam";
+            this.btnLoaddingExam.Size = new System.Drawing.Size(100, 31);
+            this.btnLoaddingExam.TabIndex = 29;
+            this.btnLoaddingExam.Text = "Loadding...";
+            this.btnLoaddingExam.UseVisualStyleBackColor = false;
+            this.btnLoaddingExam.Click += new System.EventHandler(this.btnLoaddingExam_Click);
+            // 
+            // txtIdExam
+            // 
+            this.txtIdExam.Enabled = false;
+            this.txtIdExam.Location = new System.Drawing.Point(847, 134);
+            this.txtIdExam.Multiline = true;
+            this.txtIdExam.Name = "txtIdExam";
+            this.txtIdExam.Size = new System.Drawing.Size(234, 36);
+            this.txtIdExam.TabIndex = 28;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "yyyy-MM-dd";
+            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(662, 73);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(169, 32);
+            this.dateTimePicker1.TabIndex = 27;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Azure;
+            this.button9.Location = new System.Drawing.Point(372, 73);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(121, 37);
+            this.button9.TabIndex = 26;
+            this.button9.Text = "Điểm cao nhất";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // btnSearchExam
+            // 
+            this.btnSearchExam.BackColor = System.Drawing.Color.Azure;
+            this.btnSearchExam.Location = new System.Drawing.Point(291, 72);
+            this.btnSearchExam.Name = "btnSearchExam";
+            this.btnSearchExam.Size = new System.Drawing.Size(75, 36);
+            this.btnSearchExam.TabIndex = 23;
+            this.btnSearchExam.Text = "Search";
+            this.btnSearchExam.UseVisualStyleBackColor = false;
+            this.btnSearchExam.Click += new System.EventHandler(this.btnSearchExam_Click);
+            // 
+            // txtSearchExam
+            // 
+            this.txtSearchExam.Location = new System.Drawing.Point(3, 75);
+            this.txtSearchExam.Multiline = true;
+            this.txtSearchExam.Name = "txtSearchExam";
+            this.txtSearchExam.Size = new System.Drawing.Size(282, 33);
+            this.txtSearchExam.TabIndex = 22;
             // 
             // txtNameCourseExam
             // 
@@ -875,7 +1127,6 @@
             // 
             this.bindingNavigatorPositionItem2.AccessibleName = "Position";
             this.bindingNavigatorPositionItem2.AutoSize = false;
-            this.bindingNavigatorPositionItem2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem2.Name = "bindingNavigatorPositionItem2";
             this.bindingNavigatorPositionItem2.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem2.Text = "0";
@@ -911,6 +1162,7 @@
             // 
             // btnUpdateExam
             // 
+            this.btnUpdateExam.BackColor = System.Drawing.Color.Azure;
             this.btnUpdateExam.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnUpdateExam.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateExam.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdateExam.Image")));
@@ -922,6 +1174,7 @@
             // 
             // btnDeleteExam
             // 
+            this.btnDeleteExam.BackColor = System.Drawing.Color.Azure;
             this.btnDeleteExam.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnDeleteExam.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteExam.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteExam.Image")));
@@ -933,23 +1186,26 @@
             // 
             // btnResetExam
             // 
+            this.btnResetExam.BackColor = System.Drawing.Color.Azure;
             this.btnResetExam.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnResetExam.Location = new System.Drawing.Point(1006, 567);
             this.btnResetExam.Name = "btnResetExam";
             this.btnResetExam.Size = new System.Drawing.Size(75, 38);
             this.btnResetExam.TabIndex = 16;
             this.btnResetExam.Text = "Reset";
-            this.btnResetExam.UseVisualStyleBackColor = true;
+            this.btnResetExam.UseVisualStyleBackColor = false;
+            this.btnResetExam.Click += new System.EventHandler(this.btnResetExam_Click);
             // 
             // btnInsertExam
             // 
+            this.btnInsertExam.BackColor = System.Drawing.Color.Azure;
             this.btnInsertExam.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInsertExam.Location = new System.Drawing.Point(847, 568);
             this.btnInsertExam.Name = "btnInsertExam";
             this.btnInsertExam.Size = new System.Drawing.Size(75, 38);
             this.btnInsertExam.TabIndex = 15;
             this.btnInsertExam.Text = "Add";
-            this.btnInsertExam.UseVisualStyleBackColor = true;
+            this.btnInsertExam.UseVisualStyleBackColor = false;
             this.btnInsertExam.Click += new System.EventHandler(this.btnInsertExam_Click);
             // 
             // cbCouIdExam
@@ -961,17 +1217,6 @@
             this.cbCouIdExam.Size = new System.Drawing.Size(75, 34);
             this.cbCouIdExam.TabIndex = 14;
             this.cbCouIdExam.SelectedIndexChanged += new System.EventHandler(this.cbCouIdExam_SelectedIndexChanged);
-            // 
-            // cbIdExam
-            // 
-            this.cbIdExam.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbIdExam.FormattingEnabled = true;
-            this.cbIdExam.Location = new System.Drawing.Point(847, 134);
-            this.cbIdExam.Name = "cbIdExam";
-            this.cbIdExam.Size = new System.Drawing.Size(234, 34);
-            this.cbIdExam.TabIndex = 13;
-            this.cbIdExam.SelectedIndexChanged += new System.EventHandler(this.cbIdExam_SelectedIndexChanged);
-            this.cbIdExam.Click += new System.EventHandler(this.cbIdExam_Click);
             // 
             // txtMarkExam
             // 
@@ -1072,9 +1317,13 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.tabPage4.Controls.Add(this.btnLoaddingCourse);
+            this.tabPage4.Controls.Add(this.txtIdCourse);
+            this.tabPage4.Controls.Add(this.button11);
+            this.tabPage4.Controls.Add(this.button10);
             this.tabPage4.Controls.Add(this.txtSearchCourse);
             this.tabPage4.Controls.Add(this.btnSearchCourse);
-            this.tabPage4.Controls.Add(this.cbCourseId);
             this.tabPage4.Controls.Add(this.txtCourseName);
             this.tabPage4.Controls.Add(this.txtCourseSemester);
             this.tabPage4.Controls.Add(this.btnResetCourse);
@@ -1091,17 +1340,68 @@
             this.tabPage4.Size = new System.Drawing.Size(1098, 648);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "COURSE";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // cbCourseId
+            // btnLoaddingCourse
             // 
-            this.cbCourseId.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbCourseId.FormattingEnabled = true;
-            this.cbCourseId.Location = new System.Drawing.Point(814, 185);
-            this.cbCourseId.Name = "cbCourseId";
-            this.cbCourseId.Size = new System.Drawing.Size(193, 34);
-            this.cbCourseId.TabIndex = 10;
-            this.cbCourseId.SelectedIndexChanged += new System.EventHandler(this.cbCourseId_SelectedIndexChanged);
+            this.btnLoaddingCourse.BackColor = System.Drawing.Color.Azure;
+            this.btnLoaddingCourse.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoaddingCourse.Location = new System.Drawing.Point(0, 0);
+            this.btnLoaddingCourse.Name = "btnLoaddingCourse";
+            this.btnLoaddingCourse.Size = new System.Drawing.Size(100, 31);
+            this.btnLoaddingCourse.TabIndex = 16;
+            this.btnLoaddingCourse.Text = "Loadding...";
+            this.btnLoaddingCourse.UseVisualStyleBackColor = false;
+            this.btnLoaddingCourse.Click += new System.EventHandler(this.btnLoaddingCourse_Click);
+            // 
+            // txtIdCourse
+            // 
+            this.txtIdCourse.Enabled = false;
+            this.txtIdCourse.Location = new System.Drawing.Point(814, 185);
+            this.txtIdCourse.Multiline = true;
+            this.txtIdCourse.Name = "txtIdCourse";
+            this.txtIdCourse.Size = new System.Drawing.Size(193, 38);
+            this.txtIdCourse.TabIndex = 15;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Azure;
+            this.button11.Location = new System.Drawing.Point(606, 72);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(92, 33);
+            this.button11.TabIndex = 14;
+            this.button11.Text = "Filter Name";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Azure;
+            this.button10.Location = new System.Drawing.Point(508, 72);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(92, 33);
+            this.button10.TabIndex = 13;
+            this.button10.Text = "Id DESC";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // txtSearchCourse
+            // 
+            this.txtSearchCourse.Location = new System.Drawing.Point(53, 72);
+            this.txtSearchCourse.Multiline = true;
+            this.txtSearchCourse.Name = "txtSearchCourse";
+            this.txtSearchCourse.Size = new System.Drawing.Size(224, 33);
+            this.txtSearchCourse.TabIndex = 12;
+            // 
+            // btnSearchCourse
+            // 
+            this.btnSearchCourse.BackColor = System.Drawing.Color.Azure;
+            this.btnSearchCourse.Location = new System.Drawing.Point(283, 72);
+            this.btnSearchCourse.Name = "btnSearchCourse";
+            this.btnSearchCourse.Size = new System.Drawing.Size(75, 33);
+            this.btnSearchCourse.TabIndex = 11;
+            this.btnSearchCourse.Text = "Search";
+            this.btnSearchCourse.UseVisualStyleBackColor = false;
+            this.btnSearchCourse.Click += new System.EventHandler(this.btnSearchCourse_Click);
             // 
             // txtCourseName
             // 
@@ -1121,22 +1421,24 @@
             // 
             // btnResetCourse
             // 
+            this.btnResetCourse.BackColor = System.Drawing.Color.Azure;
             this.btnResetCourse.Location = new System.Drawing.Point(921, 529);
             this.btnResetCourse.Name = "btnResetCourse";
             this.btnResetCourse.Size = new System.Drawing.Size(86, 43);
             this.btnResetCourse.TabIndex = 7;
             this.btnResetCourse.Text = "Reset";
-            this.btnResetCourse.UseVisualStyleBackColor = true;
+            this.btnResetCourse.UseVisualStyleBackColor = false;
             this.btnResetCourse.Click += new System.EventHandler(this.btnResetCourse_Click);
             // 
             // btnInsertCourse
             // 
+            this.btnInsertCourse.BackColor = System.Drawing.Color.Azure;
             this.btnInsertCourse.Location = new System.Drawing.Point(814, 529);
             this.btnInsertCourse.Name = "btnInsertCourse";
             this.btnInsertCourse.Size = new System.Drawing.Size(86, 43);
             this.btnInsertCourse.TabIndex = 6;
             this.btnInsertCourse.Text = "Add";
-            this.btnInsertCourse.UseVisualStyleBackColor = true;
+            this.btnInsertCourse.UseVisualStyleBackColor = false;
             this.btnInsertCourse.Click += new System.EventHandler(this.btnInsertCourse_Click);
             // 
             // label23
@@ -1233,7 +1535,6 @@
             // 
             this.bindingNavigatorPositionItem3.AccessibleName = "Position";
             this.bindingNavigatorPositionItem3.AutoSize = false;
-            this.bindingNavigatorPositionItem3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem3.Name = "bindingNavigatorPositionItem3";
             this.bindingNavigatorPositionItem3.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem3.Text = "0";
@@ -1269,6 +1570,7 @@
             // 
             // btnUpdateCourse
             // 
+            this.btnUpdateCourse.BackColor = System.Drawing.Color.Azure;
             this.btnUpdateCourse.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnUpdateCourse.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdateCourse.Image")));
             this.btnUpdateCourse.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -1279,6 +1581,7 @@
             // 
             // btnDeleteCourse
             // 
+            this.btnDeleteCourse.BackColor = System.Drawing.Color.Azure;
             this.btnDeleteCourse.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.btnDeleteCourse.Image = ((System.Drawing.Image)(resources.GetObject("btnDeleteCourse.Image")));
             this.btnDeleteCourse.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -1307,60 +1610,6 @@
             this.label20.Size = new System.Drawing.Size(286, 69);
             this.label20.TabIndex = 0;
             this.label20.Text = "COURSE";
-            // 
-            // txtSearchExam
-            // 
-            this.txtSearchExam.Location = new System.Drawing.Point(3, 75);
-            this.txtSearchExam.Multiline = true;
-            this.txtSearchExam.Name = "txtSearchExam";
-            this.txtSearchExam.Size = new System.Drawing.Size(388, 33);
-            this.txtSearchExam.TabIndex = 22;
-            // 
-            // btnSearchExam
-            // 
-            this.btnSearchExam.Location = new System.Drawing.Point(397, 72);
-            this.btnSearchExam.Name = "btnSearchExam";
-            this.btnSearchExam.Size = new System.Drawing.Size(75, 36);
-            this.btnSearchExam.TabIndex = 23;
-            this.btnSearchExam.Text = "Search";
-            this.btnSearchExam.UseVisualStyleBackColor = true;
-            this.btnSearchExam.Click += new System.EventHandler(this.btnSearchExam_Click);
-            // 
-            // btnSearchCourse
-            // 
-            this.btnSearchCourse.Location = new System.Drawing.Point(362, 72);
-            this.btnSearchCourse.Name = "btnSearchCourse";
-            this.btnSearchCourse.Size = new System.Drawing.Size(75, 33);
-            this.btnSearchCourse.TabIndex = 11;
-            this.btnSearchCourse.Text = "Search";
-            this.btnSearchCourse.UseVisualStyleBackColor = true;
-            // 
-            // txtSearchCourse
-            // 
-            this.txtSearchCourse.Location = new System.Drawing.Point(53, 72);
-            this.txtSearchCourse.Multiline = true;
-            this.txtSearchCourse.Name = "txtSearchCourse";
-            this.txtSearchCourse.Size = new System.Drawing.Size(303, 33);
-            this.txtSearchCourse.TabIndex = 12;
-            this.txtSearchCourse.TextChanged += new System.EventHandler(this.txtSearchCourse_TextChanged);
-            // 
-            // btnSeachStudents
-            // 
-            this.btnSeachStudents.Location = new System.Drawing.Point(367, 75);
-            this.btnSeachStudents.Name = "btnSeachStudents";
-            this.btnSeachStudents.Size = new System.Drawing.Size(75, 34);
-            this.btnSeachStudents.TabIndex = 20;
-            this.btnSeachStudents.Text = "Search";
-            this.btnSeachStudents.UseVisualStyleBackColor = true;
-            this.btnSeachStudents.Click += new System.EventHandler(this.btnSeachStudents_Click);
-            // 
-            // txtSearchStudents
-            // 
-            this.txtSearchStudents.Location = new System.Drawing.Point(9, 77);
-            this.txtSearchStudents.Multiline = true;
-            this.txtSearchStudents.Name = "txtSearchStudents";
-            this.txtSearchStudents.Size = new System.Drawing.Size(352, 32);
-            this.txtSearchStudents.TabIndex = 21;
             // 
             // Form1
             // 
@@ -1431,7 +1680,6 @@
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ComboBox cbDeptId;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Label label11;
@@ -1452,7 +1700,6 @@
         private System.Windows.Forms.ComboBox cBDeptNameSub;
         private System.Windows.Forms.TextBox txtEmailStu;
         private System.Windows.Forms.TextBox txtPhoneStu;
-        private System.Windows.Forms.ComboBox cbDeptStuId;
         private System.Windows.Forms.TextBox txtNameStu;
         private System.Windows.Forms.Button btnResetStu;
         private System.Windows.Forms.Button btnInsertStu;
@@ -1466,7 +1713,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox cbIdExam;
         private System.Windows.Forms.TextBox txtMarkExam;
         private System.Windows.Forms.TextBox txtNameExam;
         private System.Windows.Forms.Label label19;
@@ -1511,7 +1757,6 @@
         private System.Windows.Forms.ToolStripButton btnDeleteCourse;
         private System.Windows.Forms.DataGridView dataGridView4;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.ComboBox cbCourseId;
         private System.Windows.Forms.TextBox txtCourseName;
         private System.Windows.Forms.TextBox txtCourseSemester;
         private System.Windows.Forms.BindingSource bindingSource4;
@@ -1525,6 +1770,28 @@
         private System.Windows.Forms.Button btnSearchCourse;
         private System.Windows.Forms.TextBox txtSearchStudents;
         private System.Windows.Forms.Button btnSeachStudents;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button FilterId;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox txtIdSub;
+        private System.Windows.Forms.TextBox txtIdStu;
+        private System.Windows.Forms.TextBox txtIdExam;
+        private System.Windows.Forms.TextBox txtIdCourse;
+        private System.Windows.Forms.TextBox txtNameSubject;
+        private System.Windows.Forms.Button btnLoaddingExam;
+        private System.Windows.Forms.Button btnLoaddingSubject;
+        private System.Windows.Forms.Button btnLoaddingStudents;
+        private System.Windows.Forms.Button btnLoaddingCourse;
+        private System.Windows.Forms.Label label24;
     }
 }
 

@@ -27,7 +27,7 @@ namespace WindowsFormsApp9
         {
             // TODO: This line of code loads data into the 'pHAMPHUCLOIDataSet2.tblStudent' table. You can move, or remove it, as needed.
             this.tblStudentTableAdapter.Fill(this.pHAMPHUCLOIDataSet2.tblStudent);
-            //using (PHAMPHUCLOIEntities stu = new PHAMPHUCLOIEntities())
+            //using (PHAMPHUCLOIEntities2 stu = new PHAMPHUCLOIEntities2())
             //{
             //    await LoadData(stu);
 
@@ -42,25 +42,25 @@ namespace WindowsFormsApp9
             //    txtPhone.DataBindings.Add("Text", bindingSource1, "stuPhone");
             //    cbSubject.DataBindings.Add("Text", bindingSource1, "deptId");
             //}
-            con.ConnectionString = ConfigurationManager.ConnectionStrings["phamphucloi"].ConnectionString;
+            using (PHAMPHUCLOIEntities2 stu = new PHAMPHUCLOIEntities2())
+            {
+                bindingSource1.DataSource = await stu.tblStudents.Select(st => new
+                {
+                    st.stuId,
+                    st.stuName,
+                    st.stuGender
+                }).ToListAsync();
+            dataGridView1.DataSource = bindingSource1;
+            bindingNavigator1.BindingSource = bindingSource1;
 
-            command.Connection = con;
-
-            command.CommandText = "select * from tblStudent";
-
-            command.CommandType = CommandType.Text;
-
-            adapter.SelectCommand = command;
-            ds.Tables.Clear();
-            adapter.Fill(ds);
-            dataGridView1.DataSource = ds.Tables[0].DefaultView;
+            }
         }
 
-        private async Task LoadData(PHAMPHUCLOIEntities stu)
+        private async Task LoadData(PHAMPHUCLOIEntities2 stu)
         {
             bindingSource1.DataSource = await stu.tblStudents.Select(st =>new
             {
-                st.stuId, st.stuName, st.stuPass, st.stuPhone, st.stuEmail, st.deptId
+                st.stuId, st.stuName, st.stuPass, st.stuPhone, st.stuEmail, st.deptId, st.stuGender
             }).ToListAsync();
             bindingNavigator1.BindingSource = bindingSource1;
             dataGridView1.DataSource = bindingSource1;
@@ -81,7 +81,7 @@ namespace WindowsFormsApp9
 
         private async void btnAdd_Click(object sender, EventArgs e)
         {
-            using (PHAMPHUCLOIEntities stu = new PHAMPHUCLOIEntities())
+            using (PHAMPHUCLOIEntities2 stu = new PHAMPHUCLOIEntities2())
             {
                 if (string.IsNullOrEmpty(txtName.Text) || string.IsNullOrEmpty(txtPhone.Text) || string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(cbSubject.Text))
                 {
@@ -104,7 +104,7 @@ namespace WindowsFormsApp9
 
         private async void btnUpdate_Click(object sender, EventArgs e)
         {
-            using (PHAMPHUCLOIEntities stu = new PHAMPHUCLOIEntities())
+            using (PHAMPHUCLOIEntities2 stu = new PHAMPHUCLOIEntities2())
             {
                 int id = Convert.ToInt16(txtId.Text);
 
@@ -133,7 +133,7 @@ namespace WindowsFormsApp9
 
         private async void btnDelete_Click(object sender, EventArgs e)
         {
-            using (PHAMPHUCLOIEntities stu = new PHAMPHUCLOIEntities())
+            using (PHAMPHUCLOIEntities2 stu = new PHAMPHUCLOIEntities2())
             {
                 int id = Convert.ToInt16(txtId.Text);
 

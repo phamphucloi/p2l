@@ -25,6 +25,7 @@ namespace WindowsFormsApp12.Model
         public string stuName { get; set; }
         public string stuPhone { get; set; }
         public string stuEmail { get; set; }
+        public Nullable<bool> stuGender{ get; set; }
         public Nullable<int> deptId { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

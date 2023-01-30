@@ -13,10 +13,10 @@ namespace WindowsFormsApp9.Model
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class PHAMPHUCLOIEntities : DbContext
+    public partial class PHAMPHUCLOIEntities2 : DbContext
     {
-        public PHAMPHUCLOIEntities()
-            : base("name=PHAMPHUCLOIEntities")
+        public PHAMPHUCLOIEntities2()
+            : base("name=PHAMPHUCLOIEntities2")
         {
         }
     
@@ -25,7 +25,6 @@ namespace WindowsFormsApp9.Model
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<tblCourse> tblCourses { get; set; }
         public virtual DbSet<tblExam> tblExams { get; set; }
         public virtual DbSet<tblStudent> tblStudents { get; set; }

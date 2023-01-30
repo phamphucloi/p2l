@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PHAMPHUCLOIModelStoreContainer" CdmEntityContainer="PHAMPHUCLOIEntities">
+    <EntitySetMapping Name="tblCourses">
+      <EntityTypeMapping TypeName="PHAMPHUCLOIModel.tblCourse">
+        <MappingFragment StoreEntitySet="tblCourse">
+          <ScalarProperty Name="couId" ColumnName="couId" />
+          <ScalarProperty Name="couName" ColumnName="couName" />
+          <ScalarProperty Name="couSemester" ColumnName="couSemester" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblExams">
+      <EntityTypeMapping TypeName="PHAMPHUCLOIModel.tblExam">
+        <MappingFragment StoreEntitySet="tblExam">
+          <ScalarProperty Name="examId" ColumnName="examId" />
+          <ScalarProperty Name="examName" ColumnName="examName" />
+          <ScalarProperty Name="examMark" ColumnName="examMark" />
+          <ScalarProperty Name="examDate" ColumnName="examDate" />
+          <ScalarProperty Name="stuId" ColumnName="stuId" />
+          <ScalarProperty Name="couId" ColumnName="couId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblStudents">
+      <EntityTypeMapping TypeName="PHAMPHUCLOIModel.tblStudent">
+        <MappingFragment StoreEntitySet="tblStudent">
+          <ScalarProperty Name="stuId" ColumnName="stuId" />
+          <ScalarProperty Name="stuPass" ColumnName="stuPass" />
+          <ScalarProperty Name="stuName" ColumnName="stuName" />
+          <ScalarProperty Name="stuPhone" ColumnName="stuPhone" />
+          <ScalarProperty Name="stuEmail" ColumnName="stuEmail" />
+          <ScalarProperty Name="stuGender" ColumnName="stuGender" />
+          <ScalarProperty Name="deptId" ColumnName="deptId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSubjects">
+      <EntityTypeMapping TypeName="PHAMPHUCLOIModel.tblSubject">
+        <MappingFragment StoreEntitySet="tblSubject">
+          <ScalarProperty Name="deptId" ColumnName="deptId" />
+          <ScalarProperty Name="deptName" ColumnName="deptName" />
+          <ScalarProperty Name="deptCredits" ColumnName="deptCredits" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -7,17 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp9.Model
+namespace WindowsFormsApp8.Model
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class sysdiagram
+    public partial class tblExam
     {
-        public string name { get; set; }
-        public int principal_id { get; set; }
-        public int diagram_id { get; set; }
-        public Nullable<int> version { get; set; }
-        public byte[] definition { get; set; }
+        public int examId { get; set; }
+        public string examName { get; set; }
+        public string examMark { get; set; }
+        public string examDate { get; set; }
+        public Nullable<int> stuId { get; set; }
+        public Nullable<int> couId { get; set; }
+    
+        public virtual tblCourse tblCourse { get; set; }
+        public virtual tblStudent tblStudent { get; set; }
     }
 }

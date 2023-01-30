@@ -5,16 +5,6 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
       <Schema Namespace="PHAMPHUCLOIModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="sysdiagrams">
-          <Key>
-            <PropertyRef Name="diagram_id" />
-          </Key>
-          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
-          <Property Name="principal_id" Type="int" Nullable="false" />
-          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="version" Type="int" />
-          <Property Name="definition" Type="varbinary(max)" />
-        </EntityType>
         <EntityType Name="tblCourse">
           <Key>
             <PropertyRef Name="couId" />
@@ -43,6 +33,7 @@
           <Property Name="stuName" Type="varchar" MaxLength="50" />
           <Property Name="stuPhone" Type="varchar" MaxLength="50" />
           <Property Name="stuEmail" Type="varchar" MaxLength="50" />
+          <Property Name="stuGender" Type="bit" />
           <Property Name="deptId" Type="int" />
         </EntityType>
         <EntityType Name="tblSubject">
@@ -90,7 +81,6 @@
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="PHAMPHUCLOIModelStoreContainer">
-          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tblCourse" EntityType="Self.tblCourse" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tblExam" EntityType="Self.tblExam" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tblStudent" EntityType="Self.tblStudent" Schema="dbo" store:Type="Tables" />
@@ -113,16 +103,6 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="PHAMPHUCLOIModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="sysdiagram">
-          <Key>
-            <PropertyRef Name="diagram_id" />
-          </Key>
-          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="principal_id" Type="Int32" Nullable="false" />
-          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="version" Type="Int32" />
-          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
-        </EntityType>
         <EntityType Name="tblCourse">
           <Key>
             <PropertyRef Name="couId" />
@@ -154,6 +134,7 @@
           <Property Name="stuName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="stuPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="stuEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="stuGender" Type="Boolean" />
           <Property Name="deptId" Type="Int32" />
           <NavigationProperty Name="tblExams" Relationship="Self.FK_tblExam_tblStudent" FromRole="tblStudent" ToRole="tblExam" />
           <NavigationProperty Name="tblSubject" Relationship="Self.FK_tblStudent_tblSubject" FromRole="tblStudent" ToRole="tblSubject" />
@@ -203,8 +184,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="PHAMPHUCLOIEntities" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+        <EntityContainer Name="PHAMPHUCLOIEntities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="tblCourses" EntityType="Self.tblCourse" />
           <EntitySet Name="tblExams" EntityType="Self.tblExam" />
           <EntitySet Name="tblStudents" EntityType="Self.tblStudent" />
@@ -227,18 +207,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="PHAMPHUCLOIModelStoreContainer" CdmEntityContainer="PHAMPHUCLOIEntities">
-          <EntitySetMapping Name="sysdiagrams">
-            <EntityTypeMapping TypeName="PHAMPHUCLOIModel.sysdiagram">
-              <MappingFragment StoreEntitySet="sysdiagrams">
-                <ScalarProperty Name="name" ColumnName="name" />
-                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
-                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
-                <ScalarProperty Name="version" ColumnName="version" />
-                <ScalarProperty Name="definition" ColumnName="definition" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
+        <EntityContainerMapping StorageEntityContainer="PHAMPHUCLOIModelStoreContainer" CdmEntityContainer="PHAMPHUCLOIEntities2">
           <EntitySetMapping Name="tblCourses">
             <EntityTypeMapping TypeName="PHAMPHUCLOIModel.tblCourse">
               <MappingFragment StoreEntitySet="tblCourse">
@@ -268,6 +237,7 @@
                 <ScalarProperty Name="stuName" ColumnName="stuName" />
                 <ScalarProperty Name="stuPhone" ColumnName="stuPhone" />
                 <ScalarProperty Name="stuEmail" ColumnName="stuEmail" />
+                <ScalarProperty Name="stuGender" ColumnName="stuGender" />
                 <ScalarProperty Name="deptId" ColumnName="deptId" />
               </MappingFragment>
             </EntityTypeMapping>
