@@ -12,7 +12,6 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
-using WindowsFormsApp12.Helper;
 using WindowsFormsApp12.Model;
 using static System.Net.Mime.MediaTypeNames;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
@@ -23,7 +22,7 @@ namespace WindowsFormsApp12
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
 
@@ -445,10 +444,19 @@ namespace WindowsFormsApp12
 
                 foreach (var i in stu.tblStudents)
                 {
-                    if (i.stuId == id)
+                    foreach (var j in stu.tblExams)
                     {
-                        stu.tblStudents.Remove(i);
+                        if (j.stuId != id && Convert.ToInt16(txtIdStu.Text) == id)
+                        {
+                            stu.tblStudents.Remove(i);
+                        }
+                        else
+                        {
+                            MessageBox.Show(this, "Không được xóa.", "THÔNG BÁO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            return;
+                        }
                     }
+                   
                 }
                 await stu.SaveChangesAsync();
                 await LoadData2(stu);

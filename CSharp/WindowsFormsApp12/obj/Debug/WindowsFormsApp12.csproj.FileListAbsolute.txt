@@ -14,3 +14,4 @@ C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp12\obj\Debug\WindowsFormsA
 C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp12\obj\Debug\WindowsFormsApp12.csproj.CopyComplete
 C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp12\obj\Debug\WindowsFormsApp12.exe
 C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp12\obj\Debug\WindowsFormsApp12.pdb
+C:\Users\ADMIN\source\repos\p2l\CSharp\WindowsFormsApp12\obj\Debug\WindowsFormsApp12.Form2.resources

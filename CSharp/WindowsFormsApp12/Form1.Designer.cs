@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnLoaddingSubject = new System.Windows.Forms.Button();
             this.txtIdSub = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -206,6 +207,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.btnLoaddingSubject);
             this.tabPage1.Controls.Add(this.txtIdSub);
             this.tabPage1.Controls.Add(this.button3);
@@ -229,6 +231,13 @@
             this.tabPage1.Size = new System.Drawing.Size(1098, 648);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "SUBJECT";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(874, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.TabIndex = 20;
             // 
             // btnLoaddingSubject
             // 
@@ -367,6 +376,7 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -793,6 +803,7 @@
             // 
             this.bindingNavigatorPositionItem1.AccessibleName = "Position";
             this.bindingNavigatorPositionItem1.AutoSize = false;
+            this.bindingNavigatorPositionItem1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem1.Name = "bindingNavigatorPositionItem1";
             this.bindingNavigatorPositionItem1.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem1.Text = "0";
@@ -1127,6 +1138,7 @@
             // 
             this.bindingNavigatorPositionItem2.AccessibleName = "Position";
             this.bindingNavigatorPositionItem2.AutoSize = false;
+            this.bindingNavigatorPositionItem2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem2.Name = "bindingNavigatorPositionItem2";
             this.bindingNavigatorPositionItem2.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem2.Text = "0";
@@ -1535,6 +1547,7 @@
             // 
             this.bindingNavigatorPositionItem3.AccessibleName = "Position";
             this.bindingNavigatorPositionItem3.AutoSize = false;
+            this.bindingNavigatorPositionItem3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem3.Name = "bindingNavigatorPositionItem3";
             this.bindingNavigatorPositionItem3.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem3.Text = "0";
@@ -1792,6 +1805,7 @@
         private System.Windows.Forms.Button btnLoaddingStudents;
         private System.Windows.Forms.Button btnLoaddingCourse;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
