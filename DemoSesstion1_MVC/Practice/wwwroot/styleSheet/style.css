@@ -1,0 +1,32 @@
+﻿body {
+
+}
+
+.change{
+    background: #4cff00;
+}
+
+img{
+    transform: scale(-100%);
+}
+
+#btn{
+    background: #f00;
+}
+
+table {
+    color: red;
+}
+
+img:hover{
+    animation: 5s xoay infinite;
+}
+
+@keyframes xoay{
+    0%{
+        transform: skew(100%)
+    }
+    100%{
+        transform: scale(100%)
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\imgs\\327308453_917558602598567_2671577435100712797_n.jpg",
+      "PackagePath": "staticwebassets\\imgs\\327308453_917558602598567_2671577435100712797_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\javascript\\mylib.js",
+      "PackagePath": "staticwebassets\\javascript\\mylib.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DemoSesstion1_MVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DemoSesstion1_MVC.props",
+      "PackagePath": "build\\DemoSesstion1_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DemoSesstion1_MVC.props",
+      "PackagePath": "buildMultiTargeting\\DemoSesstion1_MVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DemoSesstion1_MVC.props",
+      "PackagePath": "buildTransitive\\DemoSesstion1_MVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

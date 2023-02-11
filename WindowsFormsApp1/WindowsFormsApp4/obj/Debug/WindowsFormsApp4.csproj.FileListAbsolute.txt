@@ -9,3 +9,8 @@ C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\obj\Debug\Wind
 C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.exe
 C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.pdb
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\bin\Debug\EntityFramework.dll
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\bin\Debug\EntityFramework.xml
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ADMIN\source\repos\p2l\WindowsFormsApp1\WindowsFormsApp4\obj\Debug\WindowsFormsApp4.csproj.CopyComplete

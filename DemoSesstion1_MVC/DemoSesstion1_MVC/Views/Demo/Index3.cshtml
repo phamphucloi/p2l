@@ -1,0 +1,52 @@
+﻿@using DemoSesstion1_MVC.Models;
+
+@{
+    var product = new Product()
+    {
+        Id = 1,
+        Name = "PPL",
+        Photo = "327308453_917558602598567_2671577435100712797_n.jpg",
+        Price = 2.5,
+        Qty = 2,
+        Created = DateTime.Now
+    };
+}
+
+<h3>ProdcutInfor : </h3>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <td>@product.Id</td>
+    </tr>
+
+    <tr>
+        <th>Name</th>
+        <td>@product.Name</td>
+    </tr>
+
+    <tr>
+        <th>Price</th>
+        <td>@product.Price</td>
+    </tr>
+
+    <tr>
+        <th>Quantity</th>
+        <td>@product.Qty</td>vn
+    </tr>
+
+    <tr>
+        <th>Photo</th>
+        <td><img src="~/imgs/@product.Photo" width="300" height="300"/></td>
+    </tr>
+
+    <tr>
+        <th>Created at</th>
+        <td>@product.Created.ToString("yyyy-MM-dd") PM</td>
+    </tr>
+
+        <tr>
+        <th>Total</th>
+        <td>@(product.Price * product.Qty)</td>
+    </tr>
+</table>

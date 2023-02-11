@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "7XwF+7h4O6J0m5iN0IP3iKY314ZhqL0/T6ZL9+guFmY=",
+  "Source": "Practice",
+  "BasePath": "_content/Practice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Practice\\wwwroot",
+      "Source": "Practice",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\imgs\\ppl.jpg",
+      "SourceId": "Practice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "RelativePath": "imgs/ppl.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\ppl.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\javaScript\\java.js",
+      "SourceId": "Practice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "RelativePath": "javaScript/java.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\javaScript\\java.js"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\styleSheet\\style.css",
+      "SourceId": "Practice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "RelativePath": "styleSheet/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styleSheet\\style.css"
+    }
+  ]
+}

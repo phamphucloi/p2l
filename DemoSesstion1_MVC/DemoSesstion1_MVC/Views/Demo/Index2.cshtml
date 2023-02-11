@@ -1,0 +1,64 @@
+﻿<h1>Index2</h1>
+
+@{
+    var login = false;
+
+    var score = 5;
+}
+
+@if (login)
+{
+    <div>
+        <h1>Wellcome</h1>
+        <br />
+        <a href="#">Logout</a>
+    </div>
+}
+else
+{
+    <a href="#">SignIn</a>
+    <br />
+    <a href="#">SignUp</a>
+}
+
+@if (score >= 8)
+{
+    <span style="color : blue">A</span>
+}
+else if (score >= 7)
+{
+    <span style="color : yellow">B</span>
+}
+else if (score <= 5)
+{
+    <span style="color : red">D</span>
+}
+
+@{
+    var names = new List<String>
+    {
+        "Name1", "Name2", "Name3", "Name4"
+    };
+
+    var id = 1;
+}
+
+<table border="1">
+    <tr>
+        <th>STT</th>
+        <th>Names</th>
+    </tr>
+    @foreach (var i in names)
+    {
+        <tr bgcolor="@(id % 2== 0 ? "red" : "blue")">
+            <td>
+                @id
+            </td>
+
+            <td>
+                @i
+            </td>
+        </tr>
+        id++;
+    }
+</table>

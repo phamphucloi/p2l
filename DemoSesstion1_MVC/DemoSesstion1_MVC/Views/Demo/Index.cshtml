@@ -1,0 +1,33 @@
+﻿<link href="~/css/style.css" rel="stylesheet"/>
+<script src="~/javascript/mylib.js"></script>
+<h1 class="format">Razor page</h1>
+
+@{
+    int id = 123;
+    string userName = "Pham Phuc Loi";
+    bool flag = true;
+    double score = 2.5;
+    int qty = 2;
+}
+
+<h1>id = @id</h1>
+<hr />
+<h1>userName = @userName</h1>
+<h1>flag = @flag</h1>
+<h1>score = @score</h1>
+status: @(flag == true ? "show" : "hide")
+<br />
+total:@(id*qty)
+
+<img src="~/imgs/327308453_917558602598567_2671577435100712797_n.jpg" width="300" height="300" />
+
+@{
+    var pic = "327308453_917558602598567_2671577435100712797_n.jpg";
+    var width = 300;
+    var height = width;
+
+}
+
+<hr />
+
+<img src="~/imgs/@pic" width="@width" height="@height" onClick="clickMe()" />

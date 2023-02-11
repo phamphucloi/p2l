@@ -1,0 +1,102 @@
+﻿@using Practice.Models;
+
+<link href="~/styleSheet/style.css" rel="stylesheet"/>
+
+@{
+    var stu = new Students
+    {
+        Id = 1,
+        Name = "Phạm Phúc Lợi",
+        Score = 9.0,
+        Gender = true,
+        Qty = 2,
+        Picture = "ppl.jpg",
+        DoB = DateTime.Now
+
+    };
+
+    int width = 300;
+    int height = 300;
+
+    var list = new List<String>
+    {
+        "13","Phạm Phúc Lợi", "Vô cực", "19", "Nam", "ppl.jpg", "12-01-2003", "PM"
+    };
+}
+
+<button type="submit" id="btn" onclick="change()">Click me</button>
+
+<style>
+    img{
+        border: 2px dashed black;
+    }
+
+    table{
+        color: green;
+    }
+</style>
+
+<table border="1" align="center" cellpadding="8" cellspacing="0" bgcolor="#f00">
+    <tr>
+        <th align="center">Id</th>
+        <td align="center">@(stu.Id)</td>
+    </tr>
+
+    <tr>
+        <th>Name</th>
+        <td>@(stu.Name)</td>
+    </tr>
+
+    <tr>
+        <th>Score</th>
+        <td>@(stu.Score)</td>
+    </tr>
+
+    <tr>
+        <th>Gender</th>
+        <td>@(stu.Gender?"Nam":"Nữ")</td>
+    </tr>
+
+    <tr>
+        <th>Qty</th>
+        <td>@(stu.Qty)</td>
+    </tr>
+
+    <tr>
+        <th>Picture</th>
+        <td>
+            <img src="~/imgs/@stu.Picture" width="@width" height="@height" title="Ảnh của Lợi" alt="Ảnh của Lợi"/>
+        </td>
+    </tr>
+
+    <tr>
+        <th>DoB</th>
+        <td>@(stu.DoB.ToString("yyyy-MM-dd"))</td>
+    </tr>
+
+    <tr>
+        <th>Total Price : </th>
+        <td>@(stu.Score*stu.Qty)</td>
+    </tr>
+    <script src="~/javaScript/java.js"></script>
+</table>
+
+<table color="#343638" border="1" align="center" cellpadding="8" cellspacing="0">
+       <tr>
+           <th>Id</th>
+           <th>Name</th>
+           <th>Price</th>
+           <th>Score</th>
+           <th>Gender</th>
+           <th>Picture</th>
+           <th>Day of Birth</th>
+           <th>Dream</th>
+       </tr>
+
+        @foreach (var i in list)
+        {
+            <td>@i</td>
+        }
+</table>
+
+<img src="~/imgs/@stu.Picture" width="@width" height="@height" title="Phạm Phúc Lợi" alt="Ảnh" />

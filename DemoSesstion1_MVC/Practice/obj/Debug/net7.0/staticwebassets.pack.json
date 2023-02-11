@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\imgs\\ppl.jpg",
+      "PackagePath": "staticwebassets\\imgs\\ppl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\javaScript\\java.js",
+      "PackagePath": "staticwebassets\\javaScript\\java.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\styleSheet\\style.css",
+      "PackagePath": "staticwebassets\\styleSheet\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Practice.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Practice.props",
+      "PackagePath": "build\\Practice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Practice.props",
+      "PackagePath": "buildMultiTargeting\\Practice.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Practice.props",
+      "PackagePath": "buildTransitive\\Practice.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

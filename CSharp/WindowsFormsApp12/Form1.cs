@@ -446,22 +446,22 @@ namespace WindowsFormsApp12
                 {
                     foreach (var j in stu.tblExams)
                     {
-                        if (j.stuId != id && Convert.ToInt16(txtIdStu.Text) == id)
+                        if (Convert.ToInt16(txtIdStu.Text) == i.stuId && i.deptId != j.stuId)
                         {
                             stu.tblStudents.Remove(i);
                         }
-                        else
+
+                        if (i.stuId == j.stuId)
                         {
                             MessageBox.Show(this, "Không được xóa.", "THÔNG BÁO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                             return;
                         }
                     }
-                   
                 }
+
                 await stu.SaveChangesAsync();
                 await LoadData2(stu);
                 MessageBox.Show(this, "Delete-Successfully", "THÔNG BÁO", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return;
             }
         }
 

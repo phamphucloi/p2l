@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "NqCB+F5locijgEEfCeTKFhURl6/hSoDr7SDhBwtP+qI=",
+  "Source": "DemoSesstion1_MVC",
+  "BasePath": "_content/DemoSesstion1_MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DemoSesstion1_MVC\\wwwroot",
+      "Source": "DemoSesstion1_MVC",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSesstion1_MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\css\\style.css",
+      "SourceId": "DemoSesstion1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSesstion1_MVC",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\imgs\\327308453_917558602598567_2671577435100712797_n.jpg",
+      "SourceId": "DemoSesstion1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSesstion1_MVC",
+      "RelativePath": "imgs/327308453_917558602598567_2671577435100712797_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\327308453_917558602598567_2671577435100712797_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\javascript\\mylib.js",
+      "SourceId": "DemoSesstion1_MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\",
+      "BasePath": "_content/DemoSesstion1_MVC",
+      "RelativePath": "javascript/mylib.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\javascript\\mylib.js"
+    }
+  ]
+}
