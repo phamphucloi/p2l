@@ -7,7 +7,7 @@ namespace Practice.Controllers
     [Route("practice2")]
     public class Practice2Controller : Controller
     {
-        [Route("~/")]
+        //[Route("~/")]
         [Route("index")]
         public IActionResult Index(int id)
         {

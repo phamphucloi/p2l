@@ -1,0 +1,104 @@
+﻿@model Practice.Models.Account
+
+<h1>Register nè</h1>
+
+@ViewBag.mess
+
+<form method="post" asp-controller="account" asp-action="register">
+    <table>
+        <tr>
+            <td>
+                UserName :
+            </td>
+
+            <td>
+                <input type="text" asp-for="UserName" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Password :
+            </td>
+
+            <td>
+                <input type="password" asp-for="Password" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Description :
+            </td>
+
+            <td>
+                <textarea type="password" asp-for="Description"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Cert :
+            </td>
+
+            @foreach (var cert in ViewBag.certs)
+            {
+                <td>
+                    @cert.Name <input type="radio" value="@cert.Id" asp-for="Cert" />
+                </td>
+            }
+        </tr>
+
+        <tr>
+            <td>
+                Languages :
+            </td>
+
+            @foreach (var lang in ViewBag.langs)
+            {
+
+                <td>
+                    @lang.Name <input type="checkbox" value="@lang.Id" name="languages" />
+                </td>
+            }
+        </tr>
+
+        <tr>
+            <td>
+                Role :
+            </td>
+
+            <td>
+                <select asp-for="Role">
+                    @foreach (var role in ViewBag.roles)
+                    {
+                        <option value="@role.Id">
+                            @role.Name
+                        </option>
+                    }
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+               Address :
+            </td>
+
+            <td>
+                Street : <input type="text" asp-for="address.Street" />
+            </td>
+
+            <td>
+                Ward : <input type="text" asp-for="address.Ward" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="Login" />
+            </td>
+        </tr>
+
+    </table>
+</form>

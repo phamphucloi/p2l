@@ -1,7 +1,7 @@
 ﻿@model DemoSesstion1_MVC.Models.Account
 
 <h3>Register</h3>
-<script src="//cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+
 <form method="post" asp-controller="account" asp-action="register">
     <table>
         <tr>
@@ -109,7 +109,7 @@
                 <input type="text" asp-for="Address.Ward" />
             </td>
         </tr>
-
+        
         <tr>
             <td>
                 <input type="submit" value="Login" />
@@ -118,10 +118,5 @@
     </table>
 </form>
 
-<script>
-    initSample();
-</script>
-
-
-@*<script src="~/javascript/ckeditor.js"</script>
-<script src="~/javascript/sample.js"></script>*@
+<script src="~/javascript/ckeditor.js"></script>
+<script src="~/javascript/sample.js"></script>
