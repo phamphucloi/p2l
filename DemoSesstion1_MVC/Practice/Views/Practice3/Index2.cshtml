@@ -1,0 +1,14 @@
+﻿<form method="post" asp-controller="practice3" asp-action="index2">
+    UserName : <input type="text" name="username" />
+    Password : <input type="password" name="password" />
+
+    <br />
+
+    <input type="submit" value="Login" />
+
+    <p>
+        userName :@ViewBag.user
+        <br />
+        password : @ViewBag.pass
+    </p>
+</form>

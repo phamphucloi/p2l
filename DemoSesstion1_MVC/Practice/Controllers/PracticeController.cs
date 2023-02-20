@@ -3,6 +3,7 @@
 namespace Practice.Controllers;
 public class PracticeController : Controller
 {
+    [Route("index")]
     public IActionResult Index()
     {
         return View();

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoSesstion1_MVC", "DemoSesstion1_MVC\DemoSesstion1_MVC.csproj", "{7D595D42-59E8-4F6E-AC1D-1AAD562FFF04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{847728B6-0F0F-4F76-987B-FDC151F6E92D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice", "Practice\Practice.csproj", "{847728B6-0F0F-4F76-987B-FDC151F6E92D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

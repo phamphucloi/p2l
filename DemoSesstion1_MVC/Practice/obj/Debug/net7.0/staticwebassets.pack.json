@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\UploadImages\\10edaabae33942cbb604d27aa02c3ec0.png",
+      "PackagePath": "staticwebassets\\UploadImages\\10edaabae33942cbb604d27aa02c3ec0.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\UploadImages\\1424539ff08a4a4bb382697f14c2e474.png",
+      "PackagePath": "staticwebassets\\UploadImages\\1424539ff08a4a4bb382697f14c2e474.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\UploadImages\\a87a3f7472644d4d8d69da4f9acc4965.png",
+      "PackagePath": "staticwebassets\\UploadImages\\a87a3f7472644d4d8d69da4f9acc4965.png"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\imgs\\ppl.jpg",
       "PackagePath": "staticwebassets\\imgs\\ppl.jpg"
     },

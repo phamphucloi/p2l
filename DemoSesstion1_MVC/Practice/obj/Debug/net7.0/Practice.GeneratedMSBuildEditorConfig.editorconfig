@@ -16,10 +16,66 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Accounts/wellcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcd2VsbGNvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Form/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Form/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxJbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Practice2/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2UyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Practice2/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2UyXEluZGV4Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Practice2/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2UyXEluZGV4My5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Practice2/Index4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2UyXEluZGV4NC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Practice3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2UzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Practice3/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2UzXEluZGV4Mi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Practice/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Practice/Index2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2VcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/Practice/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

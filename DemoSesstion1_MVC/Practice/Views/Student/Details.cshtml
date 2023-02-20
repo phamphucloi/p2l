@@ -1,0 +1,43 @@
+﻿<a asp-controller="student" asp-action="index">Back</a>
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+        <th>Id</th>
+        <td>@ViewBag.student.Id</td>
+    </tr>
+
+    <tr>
+        <th>Name</th>
+        <td>@ViewBag.student.Name</td>
+    </tr>
+
+    <tr>
+        <th>Score</th>
+        <td>@ViewBag.student.Score</td>
+    </tr>
+
+    <tr>
+        <th>Quantity</th>
+        <td>@ViewBag.student.Qty</td>
+    </tr>
+
+    <tr>
+        <th>Picture</th>
+        <td><img src="~/imgs/@ViewBag.student.Picture" /></td>
+    </tr>
+
+    <tr>
+        <th>Gender</th>
+        <td>@ViewBag.student.Gender</td>
+    </tr>
+
+    <tr>
+        <th>Date of Birth</th>
+        <td>@ViewBag.student.DoB.ToString("yyyy-MM-dd")</td>
+    </tr>
+
+    <tr>
+        <th>Sub Total</th>
+        <td>@(ViewBag.student.Qty * ViewBag.student.Score)</td>
+    </tr>
+</table>

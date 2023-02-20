@@ -1,0 +1,127 @@
+﻿@model DemoSesstion1_MVC.Models.Account
+
+<h3>Register</h3>
+<script src="//cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+<form method="post" asp-controller="account" asp-action="register">
+    <table>
+        <tr>
+            <td>Username : </td>
+            <td>
+                <input type="text" asp-for="userName" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>Password : </td>
+            <td>
+                <input type="password" asp-for="passWord" />
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="top">Description : </td>
+            <td>
+                <textarea cols="10" rows="5" asp-for="Description">Description</textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="top">Detail : </td>
+            <div id="editor">
+                <h1>Hello world!</h1>
+                <p>I'm an instance of <a href="https://ckeditor.com">CKEditor</a>.</p>
+            </div>
+        </tr>
+
+        <tr>
+            <td>
+                male <input type="radio" value="male" asp-for="Gender" checked />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                female <input type="radio" value="female" asp-for="Gender" />
+            </td>
+        </tr>
+
+        <tr>
+            Cert :
+            <td>
+                @foreach (var ce in ViewBag.ces)
+                {
+                <td>
+                    <input type="radio" value="@ce.Id" asp-for="Cert" />@ce.Name
+                </td>
+                <br />
+                }
+            </td>
+        </tr>
+
+        <tr>
+            Trạng thái
+            <td>
+                <input type="checkbox" asp-for="Status" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="hidden" asp-for="Id" />
+            </td>
+        </tr>
+
+        <tr>
+            Languages :
+            <td>
+                @foreach (var la in ViewBag.lang)
+                {
+                <td>
+                    <input type="checkbox" value="@la.Id" name="lang" />@la.Name
+                </td>
+                <br />
+                }
+            </td>
+        </tr>
+
+        <tr>
+            Role :
+            <td>
+                <select asp-for="Role">
+                    @foreach (var role in ViewBag.roles)
+                    {
+                        <option value="@role.Id">@role.Name</option>
+                    }
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Street : </td>
+            <td>
+                <input type="text" asp-for="Address.Street" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>Ward : </td>
+            <td>
+                <input type="text" asp-for="Address.Ward" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="Login" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+<script>
+    initSample();
+</script>
+
+
+@*<script src="~/javascript/ckeditor.js"</script>
+<script src="~/javascript/sample.js"></script>*@

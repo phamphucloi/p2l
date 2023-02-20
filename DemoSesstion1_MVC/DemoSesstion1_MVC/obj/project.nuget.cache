@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SMAvD/katbOFBqHZ9fBsh0S8KDl3+O2L0RE7vGRPAnxat8z/QLoK7ZGjo8WEdgsB1NiHrCAO2tDfDKdG9wX51w==",
+  "dgSpecHash": "5Wj7bs8Ycg+4ziCsgA00E6Hy3EtC09o42eASzvwC8oys6eSKPGDwwrtWDpwr/Rtl6spp195VBMl6XJWoC0oI3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\DemoSesstion1_MVC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

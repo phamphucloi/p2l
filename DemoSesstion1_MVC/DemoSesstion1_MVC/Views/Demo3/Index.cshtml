@@ -1,0 +1,84 @@
+﻿
+
+<fieldset>
+    <legend>Demo_1</legend>
+
+    <form method="get" asp-controller="demo3" asp-action="search1">
+        Keyword : <input type="text" name="keyword" />
+        <input type="submit" value="Search" />
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Demo_2</legend>
+
+    <form method="post" asp-controller="demo3" asp-action="login">
+        <ul>
+            <li style="list-style: none">
+                UserName : <input type="text" name="username" /> <br />
+            </li>
+            <li style="list-style: none">
+                Password :
+                <input type="password" name="password" />
+            </li>
+        </ul>
+
+        <input type="submit" value="Login" />
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Demo_3</legend>
+
+    <form method="post" asp-controller="demo3" asp-action="update">
+        Email_1 : <input type="text" name="emails" /><br />
+        <input type="number" name="qty" /><br />
+
+        Email_2 : <input type="text" name="emails" /><br />
+        <input type="number" name="qty" /><br />
+
+        Email_3 : <input type="text" name="emails" /><br />
+        <input type="number" name="qty" /><br />
+
+        <input type="submit" value="Update" />
+    </form>
+</fieldset>
+
+
+
+
+
+
+
+<fieldset>
+    <legend>UpLoaded File</legend>
+
+    <form method="post" asp-controller="demo3" asp-action="upload" enctype="multipart/form-data">
+        Chọn ảnh : <input type="file" name="name_files" /><br />
+
+        <input type="submit" value="Upload" />
+    </form>
+</fieldset>
+
+
+
+<fieldset>
+    <legend>UpLoaded Files</legend>
+
+    <form method="post" asp-controller="demo3" asp-action="uploads" enctype="multipart/form-data">
+        Chọn ảnh : <input type="file" name="files" multiple /><br />
+
+        <input type="submit" value="Upload" />
+    </form>
+</fieldset>
+
+
+<fieldset>
+    <legend>Import CSV</legend>
+
+    <form method="post" asp-controller="demo3" asp-action="importCSV" enctype="multipart/form-data">
+        CSV_Files: <input type="file" name="file" /><br />
+
+        <input type="submit" value="Import" />
+    </form>
+</fieldset>

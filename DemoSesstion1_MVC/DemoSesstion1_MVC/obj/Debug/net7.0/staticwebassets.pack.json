@@ -1,6 +1,38 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\Upload\\2021-11-08.png",
+      "PackagePath": "staticwebassets\\Upload\\2021-11-08.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\Upload\\2021-11-11.png",
+      "PackagePath": "staticwebassets\\Upload\\2021-11-11.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\Upload\\6adcf13a31674fb0ba742f729cd5572a.png",
+      "PackagePath": "staticwebassets\\Upload\\6adcf13a31674fb0ba742f729cd5572a.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\Upload\\7002021-11-08.png",
+      "PackagePath": "staticwebassets\\Upload\\7002021-11-08.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\Upload\\93a58cc5f87b449db27f86f038b4ab79.png",
+      "PackagePath": "staticwebassets\\Upload\\93a58cc5f87b449db27f86f038b4ab79.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\Upload\\98b2858851874c98885cef45aec85629.png",
+      "PackagePath": "staticwebassets\\Upload\\98b2858851874c98885cef45aec85629.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\Upload\\dbc2be4e7d4846e986f7a704aeecdb9e.png",
+      "PackagePath": "staticwebassets\\Upload\\dbc2be4e7d4846e986f7a704aeecdb9e.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\Upload\\fe80a8af975d4cdf89936e3d64ba8a9b.csv",
+      "PackagePath": "staticwebassets\\Upload\\fe80a8af975d4cdf89936e3d64ba8a9b.csv"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
@@ -9,8 +41,20 @@
       "PackagePath": "staticwebassets\\imgs\\327308453_917558602598567_2671577435100712797_n.jpg"
     },
     {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\imgs\\ppl.jpg",
+      "PackagePath": "staticwebassets\\imgs\\ppl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\javascript\\ckeditor.js",
+      "PackagePath": "staticwebassets\\javascript\\ckeditor.js"
+    },
+    {
       "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\javascript\\mylib.js",
       "PackagePath": "staticwebassets\\javascript\\mylib.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\wwwroot\\javascript\\sample.js",
+      "PackagePath": "staticwebassets\\javascript\\sample.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DemoSesstion1_MVC.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,0 +1,15 @@
+﻿<table border="1" cellpadding="9" cellspacing="0"> 
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+
+    @foreach (var i in ViewBag.students)
+    {
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.Name</td>
+            <td><img src="~/UploadImages/@i.Picture" width="50" height="50"/></td>
+        </tr>
+    }
+</table>

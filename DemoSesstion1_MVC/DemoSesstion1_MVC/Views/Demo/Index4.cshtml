@@ -1,0 +1,96 @@
+﻿@using DemoSesstion1_MVC.Models;
+
+@{
+    var pro = new List<Product>
+    {
+        new Product
+        {
+            Id = 1,
+            Name = "PPL",
+            Photo = "327308453_917558602598567_2671577435100712797_n.jpg",
+            Price = 2.5,
+            Qty = 2,
+            Created = DateTime.Now
+        },
+                new Product
+        {
+            Id = 2,
+            Name = "PPL",
+            Photo = "327308453_917558602598567_2671577435100712797_n.jpg",
+            Price = 3.5,
+            Qty = 3,
+            Created = DateTime.Now
+        },
+                new Product
+        {
+            Id = 3,
+            Name = "PPL",
+            Photo = "327308453_917558602598567_2671577435100712797_n.jpg",
+            Price = 4.5,
+            Qty = 4,
+            Created = DateTime.Now
+        },
+                new Product
+        {
+            Id = 4,
+            Name = "PPL",
+            Photo = "327308453_917558602598567_2671577435100712797_n.jpg",
+            Price = 5.5,
+            Qty = 5,
+            Created = DateTime.Now
+        },
+                new Product
+        {
+            Id = 5,
+            Name = "Phạm Phúc Lợi",
+            Photo = "327308453_917558602598567_2671577435100712797_n.jpg",
+            Price = 6.5,
+            Qty = 6,
+            Created = DateTime.Now
+        },
+    };
+
+    var total = pro.Sum(p=>p.Price*p.Qty);
+}
+
+<h3>Product List</h3>
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Photo</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Created</th>
+        <th>Sub Total</th>
+    </tr>
+    @{
+        double sum = 0;
+
+    }
+    @foreach (var i in pro)
+    {
+        <tr>
+            <td padding="5px">@i.Id</td>
+            <td>@i.Name</td>
+            <td><img src="~/imgs/@i.Photo" width="50" height="50"/></td>
+            <td>@i.Price</td>
+            <td>@i.Qty</td>
+            <td>@i.Created.ToString("yyyy-MM-dd")</td>
+            <td>@(i.Price * i.Qty)</td>
+        </tr>
+
+        sum += (i.Qty * i.Price);
+    }
+    <tr>
+        <td colspan="6">Tổng :</td>
+        <tr">@total VNĐ</td>
+    </tr>
+
+    <tr>
+        <td colspan="6">Tổng :</td>
+        <tr>@sum VNĐ</tr>
+    </tr>
+
+</table>

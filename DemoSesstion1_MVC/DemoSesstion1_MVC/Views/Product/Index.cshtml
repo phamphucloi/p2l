@@ -1,0 +1,47 @@
+﻿<a asp-action="login" asp-controller="account">Đăng kí nè <<<<<:</a>
+
+<hr />
+
+<fieldset>
+    <legend>Seach by keyword</legend>
+
+    <form method="get" asp-controller="product" asp-action="searchByKeyword">
+        Keyword <input type="text" name="keyword" value="@ViewBag.keyword" /><input type="submit" value="search" />
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Seach by Price</legend>
+
+    <form method="get" asp-controller="product" asp-action="searchByPrice">
+        Min <input type="number" name="min" min="1" value="@ViewBag.min" />
+        Max <input type="number" name="max" min="1" value="@ViewBag.max" />
+        <input type="submit" value="search" />
+    </form>
+</fieldset>
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Photo</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Created</th>
+    </tr>
+
+    @foreach (var i in ViewBag.products)
+    {
+        <tr>
+            <td padding="5px">@i.Id</td>
+            <td><a asp-controller="product" asp-action="details" asp-route-id="@i.Id" style="text-decoration: none">@i.Name</a></td>
+            <td><img src="~/imgs/@i.Photo" width="50" height="50" /></td>
+            <td>@i.Price</td>
+            <td>@i.Qty</td>
+            <td>@i.Created.ToString("yyyy-MM-dd")</td>
+        </tr>
+    }
+    <tr>
+        <td colspan="6">Tổng :</td>
+    </tr>
+</table>

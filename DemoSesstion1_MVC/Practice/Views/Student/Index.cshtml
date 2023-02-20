@@ -1,0 +1,45 @@
+﻿<form method="get" asp-controller="student" asp-action="searchByPrice">
+    Min <input type="number" name="min" value="@(ViewBag.min==0?1:ViewBag.min)" />
+    <br />
+    Max <input type="number" min="1" name="max" value="@ViewBag.max" />
+
+    <input type="submit" Value="Submit"/>
+</form>
+
+<form method="get" asp-controller="student" asp-action="searchByName">
+
+    Name : <input type="text" name="name" value="@ViewBag.name" />
+
+    <input type="submit" Value="Submit" />
+</form>
+
+<table border="1" cellspacing="0" cellpadding="8">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Score</th>
+        <th>Gender</th>
+        <th>Picture</th>
+        <th>Quantity</th>
+        <th>Date of Birth</th>
+        <th>Sub Total</th>
+    </tr>
+
+    @foreach (var i in ViewBag.students)
+    {
+        <tr>
+            <td>@i.Id</td>
+            <td>
+                <a asp-controller="student" asp-action="details" asp-route-id="@i.Id" style="text-decoration: none">
+                    @i.Name
+                </a>
+            </td>
+            <td>@i.Score</td>
+            <td>@(i.Gender?"Male":"Female")</td>
+            <td><a asp-controller="student" asp-action="details" asp-route-id="@i.Id" style="text-decoration: none"><img src="~/imgs/@i.Picture" width="50" height="50" /></a></td>
+            <td>@i.Qty</td>
+            <td>@i.DoB.ToString("yyyy-MM-dd")</td>
+            <td>@(i.Score*i.Qty)</td>
+        </tr>
+    }
+</table>

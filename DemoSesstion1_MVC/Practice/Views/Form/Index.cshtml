@@ -1,0 +1,36 @@
+﻿<fieldset>
+    <legend>Single-File</legend>
+
+    <form method="post" asp-controller="form" asp-action="file" enctype="multipart/form-data">
+        Choose file-picture: <input type="file" name="file" /><br />
+        <input type="submit" value="Done" />
+    </form>
+</fieldset>
+
+
+<fieldset>
+    <legend>Multiple-File</legend>
+
+    <form method="post" asp-controller="form" asp-action="files" enctype="multipart/form-data">
+        Choose file-picture: <input type="file" value="Chọn" name="files" multiple /><br />
+        <input type="submit" value="Done" />
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Upload-File</legend>
+
+    <form method="post" asp-controller="form" asp-action="upload" enctype="multipart/form-data">
+        Choose file-picture: <input type="file" value="Chọn" name="upload" multiple /><br />
+        <input type="submit" value="Upload" />
+    </form>
+</fieldset>
+
+<fieldset>
+    <legend>Upload-FileCSV</legend>
+
+    <form method="post" asp-controller="form" asp-action="uploadcsv" enctype="multipart/form-data">
+        Choose file-picture: <input type="file" name="uploadcsv" multiple /><br />
+        <input type="submit" value="Upload" />
+    </form>
+</fieldset>

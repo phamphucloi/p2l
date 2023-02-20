@@ -1,0 +1,83 @@
+﻿id : @ViewBag.Id
+<br />
+userName : @ViewBag.userName
+<br />
+<img src="~/imgs/@ViewBag.Pic" />
+<br />
+Status : (@ViewBag.Status);
+@if (!@ViewBag.Status)
+{
+    <span>Nam</span>
+}
+else
+{
+    <span>Nữ</span>
+}
+<br />
+Price : @ViewBag.Price
+<br />
+Quantity : @ViewBag.Qty
+<br />
+Total : @(ViewBag.Price * ViewBag.Qty)
+
+@foreach(object i in ViewBag.Name){
+    <ol>
+        <li>@i</li>
+    </ol>
+}
+
+<table border="1" cellpadding="8", cellspacing="0">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Photo</th>
+        <th>Created</th>
+        <th>Sub Total</th>
+    </tr>
+
+    <tr>
+        <td>@ViewBag.Product.Id</td>
+        <td>@ViewBag.Product.Name</td>
+        <td>@ViewBag.Product.Price</td>
+        <td>@ViewBag.Product.Qty</td>
+        <td>@ViewBag.Product.Photo</td>
+        <td>@ViewBag.Product.Created</td>
+        <td>@(ViewBag.Product.Price * ViewBag.Product.Qty)</td>
+    </tr>
+</table>
+
+<table border="1" cellpadding="8" , cellspacing="0">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Photo</th>
+        <th>Created</th>
+        <th>Total</th>
+    </tr>
+    @{
+        double sum = 0;
+    }
+
+    @foreach (var i in @ViewBag.Pro)
+    {
+        sum += (i.Price * i.Qty);
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.Name</td>
+            <td>@i.Price</td>
+            <td>@i.Qty</td>
+            <td><img src="~/imgs/@i.Photo"/></td>
+            <td>@i.Created</td>
+            <td>@(i.Price * i.Qty)</td>
+        </tr>
+    }
+
+    <tr>
+        <td colspan="6">Sub total : </td>
+        <td>@sum</td>
+    </tr>
+</table>

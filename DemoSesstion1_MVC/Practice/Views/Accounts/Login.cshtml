@@ -1,0 +1,66 @@
+﻿<form method="post" asp-controller="accounts" asp-action="login">
+    <table>
+        <tr>
+            <td>
+                Username :
+            </td>
+
+            <td>
+                <input type="text" name="username" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Password :
+            </td>
+
+            <td>
+                <input type="password" name="password" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="Login" />
+            </td>
+        </tr>
+        @ViewBag.mess
+    </table>
+</form>
+
+<form method="post" asp-controller="accounts" asp-action="file" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>
+                1 file :
+            </td>
+
+            <td>
+                <input type="file" name="file" />
+            </td>
+
+            <td>
+                <input type="submit" value="Done" />
+            </td>
+        </tr>
+    </table>
+</form>
+
+<form method="post" asp-controller="accounts" asp-action="files" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>
+                Multiple file :
+            </td>
+
+            <td>
+                <input type="file" name="files" multiple/>
+            </td>
+
+            <td>
+                <input type="submit" value="Done" />
+            </td>
+        </tr>
+    </table>
+</form>

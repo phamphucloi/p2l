@@ -27,3 +27,5 @@ C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\obj\Debug\net7.0\Prac
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\obj\Debug\net7.0\Practice.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\obj\Debug\net7.0\ref\Practice.dll
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\Practice.staticwebassets.runtime.json
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\BCrypt.Net-Core.dll
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\obj\Debug\net7.0\Practice.csproj.CopyComplete

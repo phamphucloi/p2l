@@ -10,7 +10,7 @@ app.UseStaticFiles();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Demo}/{action=Index3}");
+    pattern: "{controller}/{action}");
 
 //app.MapGet("/", () => "Hello World!");
 

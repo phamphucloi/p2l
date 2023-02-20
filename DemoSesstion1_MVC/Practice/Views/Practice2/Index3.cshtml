@@ -1,0 +1,38 @@
+﻿<table border="1" cellpadding="8" cellspacing="0"> 
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Picture</th>
+        <th>Date of Birth</th>
+        <th>Score</th>
+        <th>Rank</th>
+    </tr>
+
+    @{
+        double sum = 0;
+    }
+
+    @foreach (var i in ViewBag.student)
+    {
+        sum += (i.Score * i.Qty);
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.Name</td>
+            <td>@(i.Gender?"Male":"Female")</td>
+            <td><img src="~/imgs/@i.Picture"/></td>
+            <td>@i.DoB</td>
+            <td>@i.Score</td>
+            <td>@(i.Score>8?"Giỏi":"Khá")</td>
+        </tr>
+    }
+    <tr>
+        <td colspan="5">Tổng : </td>
+        <td colspan="2" align="center">@sum</td>
+    </tr>
+</table>
+
+<a asp-controller="practice2" asp-action="index" asp-route-id="1">Index_1</a>
+<a asp-controller="practice2" asp-action="index2" asp-route-id="2">Index_2</a>
+
+<a asp-controller="practice2" asp-action="index3" asp-route-user="ppl" asp-route-pass="1">Index_4</a>

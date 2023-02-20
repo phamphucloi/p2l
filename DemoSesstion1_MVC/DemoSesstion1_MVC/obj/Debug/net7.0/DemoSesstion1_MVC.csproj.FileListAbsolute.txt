@@ -1,5 +1,6 @@
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\bin\Debug\net7.0\appsettings.json
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\bin\Debug\net7.0\DemoSesstion1_MVC.staticwebassets.runtime.json
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\bin\Debug\net7.0\DemoSesstion1_MVC.exe
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\bin\Debug\net7.0\DemoSesstion1_MVC.deps.json
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\bin\Debug\net7.0\DemoSesstion1_MVC.runtimeconfig.json
@@ -11,6 +12,8 @@ C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\ne
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.AssemblyInfo.cs
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.RazorAssemblyInfo.cache
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.RazorAssemblyInfo.cs
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\staticwebassets\msbuild.DemoSesstion1_MVC.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\staticwebassets\msbuild.build.DemoSesstion1_MVC.props
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DemoSesstion1_MVC.props
@@ -24,6 +27,5 @@ C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\ne
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.pdb
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.genruntimeconfig.cache
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\ref\DemoSesstion1_MVC.dll
-C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.RazorAssemblyInfo.cache
-C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.RazorAssemblyInfo.cs
-C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\bin\Debug\net7.0\DemoSesstion1_MVC.staticwebassets.runtime.json
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\bin\Debug\net7.0\BCrypt.Net-Core.dll
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\DemoSesstion1_MVC\obj\Debug\net7.0\DemoSesstion1_MVC.csproj.CopyComplete

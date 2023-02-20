@@ -13,6 +13,6 @@ app.UseStaticFiles();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Practice}/{action=Index}");
+    pattern: "{controller}/{action}");
 
 app.Run();

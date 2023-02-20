@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7XwF+7h4O6J0m5iN0IP3iKY314ZhqL0/T6ZL9+guFmY=",
+  "Hash": "xSlzj8mrw9NjlCQ4WW+YHnnITca6bpSFVcNNcCSGy2w=",
   "Source": "Practice",
   "BasePath": "_content/Practice",
   "Mode": "Default",
@@ -66,6 +66,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styleSheet\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\UploadImages\\10edaabae33942cbb604d27aa02c3ec0.png",
+      "SourceId": "Practice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "RelativePath": "UploadImages/10edaabae33942cbb604d27aa02c3ec0.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImages\\10edaabae33942cbb604d27aa02c3ec0.png"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\UploadImages\\1424539ff08a4a4bb382697f14c2e474.png",
+      "SourceId": "Practice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "RelativePath": "UploadImages/1424539ff08a4a4bb382697f14c2e474.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImages\\1424539ff08a4a4bb382697f14c2e474.png"
+    },
+    {
+      "Identity": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\UploadImages\\a87a3f7472644d4d8d69da4f9acc4965.png",
+      "SourceId": "Practice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "RelativePath": "UploadImages/a87a3f7472644d4d8d69da4f9acc4965.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadImages\\a87a3f7472644d4d8d69da4f9acc4965.png"
     }
   ]
 }
