@@ -12,4 +12,5 @@ public class Account
     public int[] Languages { get; set; }
     public int Role { get; set; }
     public Address Address { get; set; }
+    public DateTime DoB { get; set; }
 }

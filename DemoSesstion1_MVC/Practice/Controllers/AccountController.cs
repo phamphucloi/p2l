@@ -33,7 +33,7 @@ namespace Practice.Controllers
         }
 
         [HttpGet]
-        [Route("~/")]
+        //[Route("~/")]
         [Route("register")]
         public IActionResult Register()
         {
@@ -41,7 +41,7 @@ namespace Practice.Controllers
             acc.UserName = "123";
             acc.Role = 2;
             acc.Cert = 1;
-
+            acc.Id = 1;
             acc.address = new Address();
             acc.address.Street = "123";
             acc.address.Ward = "456";
@@ -68,6 +68,7 @@ namespace Practice.Controllers
             Debug.WriteLine(acc.Password);
             Debug.WriteLine(acc.Description);
             Debug.WriteLine(acc.Cert);
+            Debug.WriteLine("Id : " + acc.Id);
             acc.Id_Languages = languages;
             foreach (var lang in acc.Id_Languages)
             {
@@ -81,8 +82,8 @@ namespace Practice.Controllers
                 ViewBag.mess = "nhập pass";
                 return RedirectToAction("register");
             }
-            var hash = BCrypt.Net.BCrypt.HashPassword(acc.Password);
-            Debug.WriteLine(hash);
+            acc.Password = BCrypt.Net.BCrypt.HashPassword(acc.Password);
+            Debug.WriteLine(acc.Password);
             return RedirectToAction("register");
         }
     }

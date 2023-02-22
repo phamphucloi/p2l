@@ -1,0 +1,72 @@
+﻿@model Practice.Models.Test.Info
+
+<form method="post" asp-controller="personal" asp-action="index" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>
+                Enter Id :
+            </td>
+            <td>
+                <input type="text" asp-for="Id" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Enter Name :
+            </td>
+            <td>
+                <input type="text" asp-for="Name" />
+            </td>
+        </tr>
+
+        <tr>
+            @foreach (var gen in ViewBag.gender)
+            {
+                <td>
+                    @gen.Name
+                    <input type="radio" asp-for="Gender" value="@gen.Id" />
+                </td>
+            }
+        </tr>
+
+        <tr>
+            @foreach (var skill in ViewBag.skills)
+            {
+                <td>
+                    @skill.Name
+                    <input type="checkbox" name="Skill" value="@skill.Id" />
+                </td>
+            }
+        </tr>
+
+        <tr>
+            <td>
+                <select asp-for="Friends">
+                    @foreach (var fr in ViewBag.friends)
+                    {
+                        <option value="@fr.Id">
+                            @fr.Name
+                        </option>
+                    }
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Files :
+            </td>
+            <td>
+                <input type="file" name="files" multiple />
+                @ViewBag.mess
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="Submit" />
+            </td>
+        </tr>
+    </table>
+</form>

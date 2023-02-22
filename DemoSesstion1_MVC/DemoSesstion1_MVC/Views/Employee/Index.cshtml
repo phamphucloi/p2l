@@ -1,0 +1,74 @@
+﻿@model DemoSesstion1_MVC.Models.Employee
+<link href="~/css/style.css" rel="stylesheet" />
+
+<h3>Login-Emplyee</h3>
+<form method="post" asp-controller="employee" asp-action="index">
+    <table>
+        <tr>
+            <td>UserName : </td>
+        </tr>
+        <tr>
+            <br/>
+            <td>
+                <input type="text" asp-for="userName" /> <br />First
+            </td>
+            <td>
+                <input type="text" asp-for="userName" />  <br /> Last
+            </td>
+            <td>
+                <span asp-validation-for="userName" class="error"></span>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>Password : </td>
+        </tr>
+        <tr>
+            
+            <td>
+                <input type="password" asp-for="passWord" />
+            </td>
+            <td>
+                <span asp-validation-for="passWord" class="error"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email : </td>
+            <td>
+                <input type="text" asp-for="Email" />
+            </td>
+            <td>
+                <span asp-validation-for="Email" class="error"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Website : </td>
+            <td>
+                <input type="text" asp-for="Website" />
+            </td>
+            <td>
+                <span asp-validation-for="Website" class="error"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Age : </td>
+            <td>
+                <input type="text" asp-for="Age" />
+            </td>
+            <td>
+                <span asp-validation-for="Age" class="error"></span>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <input type="submit" value="Login" />
+            </td>
+        </tr>
+    </table>
+</form>

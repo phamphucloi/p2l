@@ -46,7 +46,8 @@ namespace DemoSesstion1_MVC.Controllers
 
 
         [Route("register")]
-        [Route("~/")]
+        //[Route("~/")]
+
         public IActionResult Register()
         {
             var ce = new CertModel();
@@ -65,7 +66,8 @@ namespace DemoSesstion1_MVC.Controllers
                 {
                     Street = "123",
                     Ward= "1456",
-                }
+                },
+                DoB = DateTime.Now
             };
             ViewBag.ces = ce.findAll();
             ViewBag.lang = lang.findAll();
@@ -95,6 +97,7 @@ namespace DemoSesstion1_MVC.Controllers
             acc.passWord = BCrypt.Net.BCrypt.HashPassword(acc.passWord);
 
             Debug.WriteLine("hash : " + acc.passWord);
+            Debug.WriteLine("Date Of Birth : " + acc.DoB.ToString("yyyy-MM-dd"));
             return RedirectToAction("register");
         }
     }
