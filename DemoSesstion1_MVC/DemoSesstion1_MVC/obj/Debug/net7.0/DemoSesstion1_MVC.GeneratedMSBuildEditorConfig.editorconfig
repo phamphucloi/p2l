@@ -28,6 +28,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxXZWxsY29tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/DemoSesstion1_MVC/Views/Answer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/DemoSesstion1_MVC/Views/Answer/Result.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zd2VyXFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/DemoSesstion1_MVC/Views/Demo2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtbzJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -78,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/DemoSesstion1_MVC/Views/Employee/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/DemoSesstion1_MVC/Views/Form/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ADMIN/source/repos/p2l/DemoSesstion1_MVC/DemoSesstion1_MVC/Views/Product/Details.cshtml]

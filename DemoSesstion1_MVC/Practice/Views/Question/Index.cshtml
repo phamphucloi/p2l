@@ -1,0 +1,22 @@
+﻿@model Practice.Models.Questions.Question
+
+<h1>Trang câu hỏi</h1>
+
+<form method="post" asp-controller="question" asp-action="index">
+    <ol>
+        @foreach (var question in ViewBag.questions)
+        {
+            <li>
+                @question.Content
+            </li>
+            @foreach (var answer in question.Answers)
+            {
+                <input type="radio" name="question_@question.QuestionId" value="@answer.AnswerId" />
+                @answer.AnswersTitle
+            }
+        }
+    </ol>
+
+    <input type="submit" value="Submit"/>
+</form>
+

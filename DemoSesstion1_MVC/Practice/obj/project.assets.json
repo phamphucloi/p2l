@@ -14,6 +14,22 @@
             "related": ".pdb"
           }
         }
+      },
+      "DemoSesstion1_MVC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BCrypt.Net-Core": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/DemoSesstion1_MVC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemoSesstion1_MVC.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -40,11 +56,17 @@
         "lib/netstandard2.0/BCrypt.Net-Core.dll",
         "lib/netstandard2.0/BCrypt.Net-Core.pdb"
       ]
+    },
+    "DemoSesstion1_MVC/1.0.0": {
+      "type": "project",
+      "path": "../DemoSesstion1_MVC/DemoSesstion1_MVC.csproj",
+      "msbuildProject": "../DemoSesstion1_MVC/DemoSesstion1_MVC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "BCrypt.Net-Core >= 1.6.0"
+      "BCrypt.Net-Core >= 1.6.0",
+      "DemoSesstion1_MVC >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -73,7 +95,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\DemoSesstion1_MVC.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\p2l\\DemoSesstion1_MVC\\DemoSesstion1_MVC\\DemoSesstion1_MVC.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

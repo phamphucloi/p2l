@@ -8,7 +8,7 @@ namespace DemoSesstion1_MVC.Controllers
     public class EmployeeController : Controller
     {
         [Route("index")]
-        [Route("~/")]
+        //[Route("~/")]
         public IActionResult Index()
         {
             var emp = new Employee();

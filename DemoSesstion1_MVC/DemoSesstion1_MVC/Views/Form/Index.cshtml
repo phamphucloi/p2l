@@ -1,0 +1,173 @@
+﻿@model DemoSesstion1_MVC.Models.Infomation.Infor
+
+<script src="~/javascript/ckeditor/ckeditor.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="/resources/demos/style.css">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+<script>
+    $(function () {
+        $(".dob").datepicker();
+    });
+</script>
+
+<form method="post" asp-controller="form" asp-action="index" enctype="multipart/form-data">
+    <div class="header">
+        <h2>Retreat Registration</h2>
+        <p>February-25(Saturday)</p>
+    </div>
+    <hr />
+    <table>
+        <tr>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td><input type="text" asp-for="Names.FirstName" placeholder="Enter first-name."/></td>
+            <td><input type="text" asp-for="Names.LastName" placeholder="Enter last-name." /></td>
+        </tr>
+
+        <tr>
+            <span asp-validation-for="Names.FirstName"></span>
+            <span asp-validation-for="Names.LastName"></span>
+        </tr>
+
+        <tr>
+            <td>First Name</td>
+            <td>Last Name</td>
+        </tr>
+
+        <tr>
+            <td>Street</td>
+        </tr>
+
+        <tr>
+            <td><input type="text" asp-for="Address.Street" placeholder="Enter street."/></td>
+        </tr>
+
+        <tr>
+            <td>Ward</td>
+        </tr>
+
+        <tr class="a1">
+            <td><input type="text" asp-for="Address.Ward" placeholder="Enter Ward." /></td>
+            <td><input type="text" asp-for="Address.Region" placeholder="Enter Region." /></td>
+        </tr>
+
+        <tr>
+            <td>State/Province/Region</td>
+        </tr>
+
+        <tr>
+            <td>City</td>
+        </tr>
+
+        <tr>
+            <td><input type="text"/></td>
+                <td>
+                    <select asp-for="Country">
+                        @foreach (var i in ViewBag.country)
+                        {
+                            <option value="@i.Id">@i.Name</option>
+                        }
+                    </select>
+                </td>
+        </tr>
+
+        <tr>
+            <td>Country</td>
+        </tr>
+
+        <tr>
+            <td>Phone</td>
+            <td></td>
+            <td></td>
+            <td>Email</td>
+        </tr>
+
+        <tr class="a">
+            <td><input class="input" type="text" asp-for="Personal.Phone" placeholder="please enter 3 numbers." />-</td>
+            <td><input class="input" type="text" asp-for="Personal.Phone" placeholder="please enter 3 numbers." />-</td>
+            <td><input class="input" type="text" asp-for="Personal.Phone" placeholder="please enter 4 numbers."/></td>
+            <td><input type="text" asp-for="Personal.Email" placeholder="please enter your email." /></td>
+        </tr>
+
+        <tr>
+            <td >###</td>
+            <td >###</td>
+            <td>####</td>
+        </tr>
+
+        <tr>
+            <td>Arival Date</td>
+            <td></td>
+            <td></td>
+            <td>Departure Date</td>
+        </tr>
+
+        <tr>
+            <td><input class="input" type="text" class="dob" asp-for="Personal.ArrivalDate.Month" />/</td>
+            <td><input class="input" type="text" class="dob" asp-for="Personal.ArrivalDate.Day" />/</td>
+            <td><input class="input" type="text" class="dob" asp-for="Personal.ArrivalDate.Year"  /></td>
+
+            <td><input class="input" type="text" class="dob" asp-for="Personal.DepartureDate.Month" />/</td>
+            <td><input class="input" type="text" class="dob" asp-for="Personal.DepartureDate.Day" />/</td>
+            <td><input class="input" type="text" class="dob" asp-for="Personal.DepartureDate.Year" /></td>
+        </tr>
+
+        <tr>
+            <td>MM</td>
+            <td>DD</td>
+            <td>YYYY</td>
+            <td>MM</td>
+            <td>DD</td>
+            <td >YYYY</td>
+        </tr>
+
+        <tr>
+            <td>Accommodation Status</td>
+        </tr>
+
+        <tr>
+            <td>
+                <select asp-for="Personal.Status">
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Special Needs
+            </td>
+        </tr>
+
+        <td>
+            <textarea asp-for="Personal.Notice" cols="20" rows="10"></textarea>
+        </td>
+
+        <tr>
+            <td>
+                Avartar
+            </td>
+
+            <td>
+                <input type="file" name="files" multiple/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="~/imgs/12ec93017e2449ac9ff6621fbdfc38c2.png" />
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="Submit" />
+            </td>
+        </tr>
+    </table>
+</form>

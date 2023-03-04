@@ -29,3 +29,10 @@ C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\obj\Debug\net7.0\ref\
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\Practice.staticwebassets.runtime.json
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\BCrypt.Net-Core.dll
 C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\obj\Debug\net7.0\Practice.csproj.CopyComplete
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\DemoSesstion1_MVC.deps.json
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\DemoSesstion1_MVC.runtimeconfig.json
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\DemoSesstion1_MVC.staticwebassets.runtime.json
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\DemoSesstion1_MVC.exe
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\DemoSesstion1_MVC.dll
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\bin\Debug\net7.0\DemoSesstion1_MVC.pdb
+C:\Users\ADMIN\source\repos\p2l\DemoSesstion1_MVC\Practice\obj\Debug\net7.0\Practice.MvcApplicationPartsAssemblyInfo.cs

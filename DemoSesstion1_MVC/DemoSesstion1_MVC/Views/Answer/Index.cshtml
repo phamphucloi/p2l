@@ -1,0 +1,24 @@
+﻿@model DemoSesstion1_MVC.Models.Question
+
+<form method="post" asp-controller="answer" asp-action="index">
+
+    <ol>
+        @foreach (var quest in ViewBag.questions)
+        {
+            <li>
+                @quest.Name
+            
+                <ol type="a">
+                    @foreach (var an in quest.Answer)
+                    {
+                        @*<li>@quest.Name</li>*@
+                        <input type="radio" name="question_@quest.Id" value="@an.Id" />@an.Name
+                    }
+                </ol>
+            </li>
+        }
+    </ol>
+
+    <input type="submit" value="Submit"/>
+
+</form>

@@ -14,4 +14,8 @@
     <Folder Include="wwwroot\UploadImages\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DemoSesstion1_MVC\DemoSesstion1_MVC.csproj" />
+  </ItemGroup>
+
 </Project>
